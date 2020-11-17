@@ -1,0 +1,16 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+ a {
+   color:inherit;
+ }
+
+ a:hover {
+   text-decoration-line: none;
+   color: #ed1c24;
+ }
+
+ h5 {
+   font-weight: bold;
+ }
