@@ -28,17 +28,6 @@ body {
    line-height: 2;
  }
 
- .covid {
-   font-size: 14px;
-   color: #fff;
-   font-family: 'Poppins', serif;
- }
-
- .covid a:hover {
-   text-decoration: underline;
-   color: inherit;
- }
-
 /** Footer Styling **/
 
  footer {
