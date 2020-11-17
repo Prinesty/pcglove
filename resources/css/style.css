@@ -16,11 +16,15 @@ body {
    font-weight: bold;
  }
 
+ .menu li h5 {
+   line-height: 2;
+ }
+
  footer {
    background-color: #282828;
    color: #c3c3c3;
  }
 
- #contact {
+ #contact, #quicklinks {
    font-size: 14px;
  }
