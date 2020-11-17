@@ -12,6 +12,10 @@ body {
    color: #ed1c24;
  }
 
+ .navbar-brand {
+   font-family: Poppins;
+ }
+
  h5 {
    font-weight: bold;
  }
@@ -20,11 +24,27 @@ body {
    line-height: 2;
  }
 
+ .sub-header {
+   font-size: 14px;
+ }
+
+ .covid a {
+   color: #fff;
+ }
+
+ .covid a:hover {
+   text-decoration: underline;
+ }
+
  footer {
    background-color: #282828;
    color: #c3c3c3;
  }
 
- #contact, #featuredlinks {
+ #contact, #featuredlinks, #latest {
    font-size: 14px;
+ }
+
+ #follow {
+   color: #ffffff;
  }
