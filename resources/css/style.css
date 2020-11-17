@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
   }
 
  a {
@@ -13,4 +14,13 @@ body {
 
  h5 {
    font-weight: bold;
+ }
+
+ footer {
+   background-color: #282828;
+   color: #c3c3c3;
+ }
+
+ #contact {
+   font-size: 14px;
  }
