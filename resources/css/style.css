@@ -1,3 +1,5 @@
+/** Standard Styling **/
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -7,44 +9,53 @@ body {
    color:inherit;
  }
 
- a:hover {
+ h5 {
+   font-weight: bold;
+ }
+
+ /** Navigation Styling **/
+
+ .about a:hover {
    text-decoration-line: none;
    color: #ed1c24;
  }
 
  .navbar-brand {
-   font-family: Poppins;
+   font-family: 'Poppins', serif;
  }
 
- h5 {
-   font-weight: bold;
- }
-
- .menu li h5 {
+ .about li h5 {
    line-height: 2;
  }
 
- .sub-header {
+ .covid {
    font-size: 14px;
- }
-
- .covid a {
    color: #fff;
+   font-family: 'Poppins', serif;
  }
 
  .covid a:hover {
    text-decoration: underline;
+   color: inherit;
  }
+
+/** Footer Styling **/
 
  footer {
    background-color: #282828;
    color: #c3c3c3;
- }
-
- #contact, #featuredlinks, #latest {
    font-size: 14px;
  }
 
- #follow {
+ .common a:hover {
+   text-decoration-line: underline;
+   color: inherit;
+ }
+
+ .follow {
    color: #ffffff;
+ }
+
+ .follow a:hover {
+   color: #000000;
  }
