@@ -37,10 +37,38 @@ body {
    color: inherit;
  }
 
+ .copyright a:hover {
+   text-decoration-line: none;
+   color: #ed1c24;
+ }
+
  .follow {
    color: #ffffff;
  }
 
  .follow a:hover {
    color: #000000;
+ }
+
+ /** Covid **/
+
+ .covid {
+   max-width: 1000px;
+   margin: 0 auto;
+ }
+ .covid img {
+   border-radius: 25px;
+   margin: 3rem 0;
+   box-shadow: 5px 10px #888888;
+ }
+
+ /** Back Home **/
+ .back-home a {
+   background-color: #282828;
+   border-radius: 25px;
+ }
+
+ .back-home a:hover {
+   background-color: #ed1c24;
+   text-decoration-line: none;
  }
