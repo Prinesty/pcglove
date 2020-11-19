@@ -62,7 +62,7 @@ body {
    font-size: 14px;
  }
 
- .common a:hover {
+ footer a:hover {
    text-decoration-line: underline;
    color: inherit;
  }
@@ -87,7 +87,7 @@ body {
    box-shadow: 5px 10px #888888;
  }
 
- .mask {
+ .menu-image {
    max-width: 350px;
  }
 
