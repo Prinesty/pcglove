@@ -107,3 +107,35 @@ body {
  .generational a:hover{
    text-decoration: none;
  }
+
+ /** Committees **/
+
+ .faq {
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.12);
+   border-radius: 5px;
+ }
+
+ .faq a:hover {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ .faq-details {
+   display: none;
+ }
+
+ .faq a:hover .faq-details {
+   display: block;
+   background-color: #007bff;
+   color: #ffffff;
+   box-shadow: 3px 7px #888888;
+   border-radius: 5px;
+ }
+
+ .faq .faq-details p {
+   line-height: 2;
+ }
+
+ .membership ul li {
+   line-height: 1.2;
+ }
