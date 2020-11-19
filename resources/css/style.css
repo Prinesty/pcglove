@@ -20,6 +20,10 @@ body {
    color: #ed1c24;
  }
 
+ .pcg a:hover {
+   text-decoration: underline;
+ }
+
  .about li h5 {
    line-height: 2;
  }
@@ -63,7 +67,7 @@ body {
  }
 
  .mask {
-   max-width: 300px;
+   max-width: 350px;
  }
 
 
