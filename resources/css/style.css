@@ -67,12 +67,7 @@ body {
    color: inherit;
  }
 
- .copyright a:hover {
-   text-decoration-line: none;
-   color: #ed1c24;
- }
-
- .follow {
+ .follow a {
    color: #ffffff;
  }
 
@@ -106,4 +101,9 @@ body {
  .back-home a:hover {
    background-color: #ed1c24;
    text-decoration-line: none;
+ }
+
+ /** Generational **/
+ .generational a:hover{
+   text-decoration: none;
  }
