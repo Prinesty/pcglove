@@ -138,4 +138,8 @@ footer a:hover {
   h1 {
     font-size: 1.5rem;
   }
+
+  .info a {
+    font-size: 0.9rem;
+  }
 }
