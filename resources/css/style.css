@@ -6,7 +6,7 @@ body {
 a {
   color:inherit;
 }
-h5, h6, h4{
+h1, h5, h6{
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
@@ -65,9 +65,6 @@ footer a:hover {
 }
 
  /** Ministry **/
-.jumbotron {
-  background-image: url("../images/");
-}
 .ministry p {
   font-size: 14px;
 }
@@ -111,28 +108,26 @@ footer a:hover {
    line-height: 1.2;
  }
 
+/** Covid **/
+.covid {
+  max-width: 850px;
+}
+.covid img {
+  border-radius: 25px;
+  box-shadow: 5px 10px #888888;
+}
 
-  /** Covid **/
-
-  .covid {
-    max-width: 850px;
-    margin: 0 auto;
-  }
-  .covid img {
-    border-radius: 25px;
-    margin: 3rem 0;
-    box-shadow: 5px 10px #888888;
-  }
-
-
-
-  /** Back Home **/
-  .back-home a {
-    background-color: #282828;
-    border-radius: 25px;
+/** Announcement **/
+.topic h6 {
+    color: #ed1c24;
   }
 
-  .back-home a:hover {
-    background-color: #ed1c24;
-    text-decoration-line: none;
-  }
+/** Back Home **/
+.back-home a {
+  background-color: #282828;
+  border-radius: 25px;
+}
+.back-home a:hover {
+  background-color: #ed1c24;
+  text-decoration-line: none;
+}
