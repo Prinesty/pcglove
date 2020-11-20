@@ -19,7 +19,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
     <!--Favicon -->
     <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
@@ -28,18 +29,22 @@
   </head>
     <body>
       <div id="navigation">
-        <nav class="collapse bg-light about" id="navbarHeader">
+        <nav class="collapse bg-light" id="navbarHeader">
           <div class="container">
             <div class="row">
+              <!-- Welcome Home Message -->
               <div class="col-sm-8 col-md-7 py-4">
                 <h5 class="">Covid-19</h5>
                 <p class="text-muted">This page provides daily updates on the Covid-19 situation from trusted and official sources. #COVID19 #MaskUp #StayHome</p>
                 <div class="menu-img">
-                  <img class="img-fluid" src="./resources/images/mask.png" height="20px" alt="">
+                  <img class="img-fluid" src="./resources/images/mask.png" alt="">
                 </div>
               </div>
-              <div class="col-sm-4 offset-md-1 py-4">
+
+              <!-- Main Menu -->
+              <div class="main-menu col-sm-4 offset-md-1 py-4">
                 <ul class="list-unstyled">
+                  <li><h5><a href="index.html">HOME</a></h5></li>
                   <li><h5><a href="mychurch.html">My Church</a></h5></li>
                   <li><h5><a href="session.html">The Session</a></h5></li>
                   <li><h5><a href="ministry.html">Ministries</a></h5></li>
@@ -51,12 +56,15 @@
             </div>
           </div>
         </nav>
+
         <nav class="navbar navbar-dark bg-dark">
           <div class="container d-flex">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="index.html" class="navbar-brand">P.C.G. Love Congregation</a>
+            <!-- Title
+            <a href="index.html" class="navbar-brand">Home</a>
+            -->
           </div>
         </nav>
       </div>

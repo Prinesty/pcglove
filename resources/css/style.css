@@ -1,141 +1,138 @@
 /** Standard Styling **/
-
 body {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-  }
-
- a {
-   color:inherit;
- }
-
- h5 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color:inherit;
+}
+h5, h6, h4{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+[data-title]:hover:after {
+   opacity: 1;
+   transition: all 0.1s ease 0.3s;
+   visibility: visible;
+}
+[data-title]:after {
+   content: attr(data-title);
+   position: absolute;
+   top: 2rem;
+   left: 20%;
+   padding: 5px;
+   color: #222;
+   white-space: nowrap;
+   border-radius: 5px;
+   box-shadow: 0px 0px 4px #222;
+   opacity: 0;
+   z-index: 99999;
+   font-size: 14px;
    font-weight: bold;
- }
-
- [data-title]:hover:after {
-     opacity: 1;
-     transition: all 0.1s ease 0.3s;
-     visibility: visible;
- }
- [data-title]:after {
-     content: attr(data-title);
-     position: absolute;
-     top: 2rem;
-     left: 20%;
-     padding: 5px;
-     color: #222;
-     white-space: nowrap;
-     border-radius: 5px;
-     box-shadow: 0px 0px 4px #222;
-     opacity: 0;
-     z-index: 99999;
-     font-size: 14px;
-     font-weight: bold;
-     font-family: cursive;
-     visibility: hidden;
- }
- [data-title] {
-     position: relative;
- }
+   font-family: cursive;
+   visibility: hidden;
+}
+[data-title] {
+   position: relative;
+}
 
  /** Navigation Styling **/
-
- .about a:hover {
-   text-decoration-line: none;
-   color: #ed1c24;
+#navigation {
+  font-family: 'Raleway', sans-serif;
+}
+#navigation a:hover {
+  text-decoration-line: none;
+  color: #ed1c24;
  }
-
- .pcg a:hover {
-   text-decoration: underline;
- }
-
- .about li h5 {
-   line-height: 2;
- }
+#navigation li:first-child {
+  color: #ed1c24;
+}
+.menu-img {
+  max-width: 350px;
+}
+.main-menu h5 {
+  line-height: 2;
+}
 
 /** Footer Styling **/
+footer {
+ background-color: #282828;
+ color: #c3c3c3;
+ font-size: 14px;
+}
+footer a:hover {
+  color: inherit;
+}
 
- footer {
-   background-color: #282828;
-   color: #c3c3c3;
-   font-size: 14px;
+ /** Ministry **/
+.jumbotron {
+  background-image: url("../images/");
+}
+.ministry p {
+  font-size: 14px;
+}
+.ministry a {
+  text-decoration: none;
  }
-
- footer a:hover {
-   text-decoration-line: underline;
-   color: inherit;
+.card-header {
+  background-color: #ed1c24;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #ffffff;
+  transition: backgorund 100ms ease-out 200ms;
  }
-
- .follow a {
-   color: #ffffff;
- }
-
- .follow a:hover {
-   color: #000000;
- }
-
- /** Covid **/
-
- .covid {
-   max-width: 850px;
-   margin: 0 auto;
- }
- .covid img {
-   border-radius: 25px;
-   margin: 3rem 0;
-   box-shadow: 5px 10px #888888;
- }
-
- .menu-image {
-   max-width: 350px;
- }
-
-
- /** Back Home **/
- .back-home a {
-   background-color: #282828;
-   border-radius: 25px;
- }
-
- .back-home a:hover {
-   background-color: #ed1c24;
-   text-decoration-line: none;
- }
-
- /** Generational **/
- .generational a:hover{
-   text-decoration: none;
- }
+.card-header:hover {
+  background: #e9ecef;
+}
 
  /** Committees **/
-
- .faq {
-   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.12);
-   border-radius: 5px;
+ .tab-content a:hover {
+   text-decoration: none;
+   color: #ed1c24;
  }
-
- .faq a:hover {
+ .committee {
+   border-radius: 5px;
+   background-color: #007bff;
+   color: #ffffff;
+ }
+ .committee a:hover {
    text-decoration: none;
    color: inherit;
  }
-
- .faq-details {
+ .committee-info {
    display: none;
  }
-
- .faq a:hover .faq-details {
+ .committee a:hover .committee-info {
    display: block;
-   background-color: #007bff;
-   color: #ffffff;
-   box-shadow: 3px 7px #888888;
+   background-color: #ffffff;
+   color: #000000;
    border-radius: 5px;
  }
-
- .faq .faq-details p {
-   line-height: 2;
- }
-
- .membership ul li {
+ .membership li {
    line-height: 1.2;
  }
+
+
+  /** Covid **/
+
+  .covid {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .covid img {
+    border-radius: 25px;
+    margin: 3rem 0;
+    box-shadow: 5px 10px #888888;
+  }
+
+
+
+  /** Back Home **/
+  .back-home a {
+    background-color: #282828;
+    border-radius: 25px;
+  }
+
+  .back-home a:hover {
+    background-color: #ed1c24;
+    text-decoration-line: none;
+  }

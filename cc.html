@@ -18,7 +18,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
     <!--Favicon -->
     <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
@@ -27,9 +28,10 @@
   </head>
     <body>
       <div id="navigation">
-        <nav class="collapse bg-light about" id="navbarHeader">
+        <nav class="collapse bg-light" id="navbarHeader">
           <div class="container">
             <div class="row">
+              <!-- Welcome Home Message -->
               <div class="col-sm-8 col-md-7 py-4">
                 <h5 class="">Committees</h5>
                 <p class="text-muted">The Page provides information about the working Committees in the Congregation. A brief description of the nature of their works and membership of each Committee.</p>
@@ -38,8 +40,10 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 offset-md-1 py-4">
+              <!-- Main Menu -->
+              <div class="main-menu col-sm-4 offset-md-1 py-4">
                 <ul class="list-unstyled">
+                  <li><h5><a href="index.html">HOME</a></h5></li>
                   <li><h5><a href="mychurch.html">My Church</a></h5></li>
                   <li><h5><a href="session.html">The Session</a></h5></li>
                   <li><h5><a href="ministry.html">Ministries</a></h5></li>
@@ -51,275 +55,395 @@
             </div>
           </div>
         </nav>
+
         <nav class="navbar navbar-dark bg-dark">
           <div class="container d-flex">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="index.html" class="navbar-brand">P.C.G. Love Congregation</a>
+            <!-- Title
+            <a href="index.html" class="navbar-brand">Home</a>
+            -->
           </div>
         </nav>
       </div>
 
-      <div class="container">
-        <h2 class="p-4 text-center">Departmental and Working Commitees</h2>
-        <div id="clan" class="my-5 clan">
-          <div class="faq text-center">
-            <a href="#clan">
-              <h5 class="py-3">Church Life and Nurture (CLAN)</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Samuel Nyarko - Chairman - 0243674210</p></li>
-                    <li><p>Francisca Oduro - Secretary - 0243674210</p></li>
-                    <li><p>Agnes Allotey - Member - 0243674210</p></li>
-                    <li><p>Theophilus Ayettey - Member - 0243674210</p></li>
-                    <li><p>Joyce Baah - Member - 0243674210</p></li>
-                    <li><p>Prince Peasah - Member - 0243674210</p> </li>
-                  </ul>
+      <div class="jumbotron jumbotron-fluid">
+      </div>
+
+      <div class="container department-intro">
+        <h5>The Church is made of seven (7) main departments.</h5>
+        <h5 class="my-3">The Departments work with the Committees put in place by the Session in line with the church's constitution.</h5>
+        <h5 class="mb-5">The Departments are:</h5>
+      </div>
+
+      <div class="container departments pb-5 border-bottom">
+        <div class="row">
+          <div class="col-5">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-ahr-list" data-toggle="list" href="#list-ahr" role="tab" aria-controls="ahr">Administration & Human Resource</a>
+              <a class="list-group-item list-group-item-action" id="list-dss-list" data-toggle="list" href="#list-dss" role="tab" aria-controls="dss">Development & Social Services</a>
+              <a class="list-group-item list-group-item-action" id="list-esr-list" data-toggle="list" href="#list-esr" role="tab" aria-controls="esr">Ecumenical Social Relations</a>
+              <a class="list-group-item list-group-item-action" id="list-mission-list" data-toggle="list" href="#list-mission" role="tab" aria-controls="mission">Department of Mission & Evangelism</a>
+              <a class="list-group-item list-group-item-action" id="list-finance-list" data-toggle="list" href="#list-finance" role="tab" aria-controls="finance">Finance</a>
+              <a class="list-group-item list-group-item-action" id="list-clan-list" data-toggle="list" href="#list-clan" role="tab" aria-controls="clan">Department of Church Life and Nurture</a>
+              <a class="list-group-item list-group-item-action" id="list-education-list" data-toggle="list" href="#list-education" role="tab" aria-controls="education">Education</a>
+            </div>
+          </div>
+          <div class="col-7">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-ahr" role="tabpanel" aria-labelledby="list-ahr-list">
+                <h6>Mandate / Functions </h6>
+                <p>Department of Administration and Human Resource Management coordinates the work of the following committees:</p> <br>
+                <h6><a href="#hr">1. Committee on Human Resource</a></h6> <br>
+                <h6><a href="#property">2. Committee on Property Management and Logistics</a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-dss" role="tabpanel" aria-labelledby="list-dss-list">
+                <h6>Mandate / Functions </h6>
+                <p>Department of Development and Social Services coordinates the work of the following committees:</p> <br>
+                <h6><a href="#scholarship">1. Scholarship Committee</a></h6> <br>
+                <h6><a href="#health">2. Social and Health Service Committee</a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-esr" role="tabpanel" aria-labelledby="list-esr-list">
+                <h6>Mandate / Functions </h6>
+                <p>The committee is entrusted with the responsibility to advise the Church on matters
+                  affecting the relations of the Church with other churches and with Inter-Church or
+                  Ecumenical Bodies.</p> <br>
+                <p>Department of Ecumenical Social Relations coordinates the work of the following committees:</p> <br>
+                <h6><a href="#ecu">1. Committee on Ecumenism and Relations </a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-mission" role="tabpanel" aria-labelledby="list-mission-list">
+                <h6>Mandate / Functions </h6>
+                <p>Keep under review the whole evangelistic task of the Church and the way it is being carried out. <br>
+                  Encourage and guide the Bible Study and Prayer Group.<br>
+                  Promote the evangelistic endeavours of other groups in the Church</p> <br>
+                  <p>Department of Missions and Evangelism coordinates the work of the following committees:</p> <br>
+                  <h6><a href="#evangelism">1. Committee on Evangelism </a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-finance" role="tabpanel" aria-labelledby="list-finance-list">
+                <h6>Mandate / Functions </h6>
+                <p>Department of Finance coordinates the work of the following committees:</p> <br>
+                <h6><a href="#welfare">1. Welfare Committee </a></h6> <br>
+                <h6><a href="#credit">2. Credit Union </a></h6> <br>
+                <h6><a href="#harvest">3. Harvest Committee</a></h6> <br>
+                <h6><a href="#project">4. Project and Investment Committee</a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-clan" role="tabpanel" aria-labelledby="list-clan-list">
+                <h6>Mandate / Functions </h6>
+                <p>The Department works out a mechanism for providing members of the Church with Christian Education</p> <br>
+                <p>Department of Church Life and Nurture coordinates the work of the following committees:</p> <br>
+                <h6><a href="#clan">1. Church Life and Nurture (CLAN) </a></h6> <br>
+                <h6><a href="#worship">2. Committee on Worship</a></h6> <br>
+                <h6><a href="#family">3. Committee on Counselling and Family Life</a></h6>
+              </div>
+              <div class="tab-pane fade" id="list-education" role="tabpanel" aria-labelledby="list-education-list">
+                <h6>Mandate / Functions </h6>
+                <p>Responsible for the operations of the School and Education in the Church</p> <br>
+                <p>Department of Education coordinates the work of the following committees:</p> <br>
+                <h6><a href="#edu">1. Education Committee  </a></h6> <br>
+                <h6><a href="#smc">2. School Management Committee (SMC) </a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container committee-list">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="hr" class="my-5 hr">
+              <div class="committee shadow text-center">
+                <a href="#hr">
+                  <h5 class="py-3">Committee on Human Resources</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Jerry Armah - Chairman - 0243674210</p></li>
+                      <li><p>Patrick Armah - Secretary - 0243674210</p></li>
+                      <li><p>David Allotey - Member - 0243674210</p></li>
+                      <li><p>Michael Ayettey - Member - 0243674210</p></li>
+                      <li><p>Madam Lucy Adams - Member - 0243674210</p></li>
+                      <li><p>Daniel Narh Ogum - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="property" class="my-5 property">
+              <div class="committee shadow text-center">
+                <a href="#property">
+                  <h5 class="py-3">Committee on Property Management and Logistics</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                      <ul class="list-unstyled">
+                        <li><p>Douglas Osei Poki - Chairman - 0243674210</p></li>
+                        <li><p>Patrick Armah - Secretary - 0243674210</p></li>
+                        <li><p>NAthaniel Anati - Member - 0243674210</p></li>
+                        <li><p>Michael Ayettey - Member - 0243674210</p></li>
+                        <li><p>Felicia Amui - Member - 0243674210</p></li>
+                      </ul>
+                    </div>
+                  </a>
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="scholarship" class="my-5 scholarship">
+              <div class="committee shadow text-center">
+                <a href="#scholarship">
+                  <h5 class="py-3">Scholarship Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Bernice Quartey - Chairman - 0243674210</p></li>
+                      <li><p>George Amegavi - Secretary - 0243674210</p></li>
+                      <li><p>Janet Amegavi - Member - 0243674210</p></li>
+                      <li><p>Frederick Addo Yobo - Member - 0243674210</p></li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="health" class="my-5 health">
+              <div class="committee shadow text-center">
+                <a href="#health">
+                  <h5 class="py-3">Social and Health Service Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Bernice Quartey - Chairman - 0243674210</p></li>
+                      <li><p>George Amegavi - Secretary - 0243674210</p></li>
+                      <li><p>Janet Amegavi - Member - 0243674210</p></li>
+                      <li><p>Frederick Addo Yobo - Member - 0243674210</p></li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="evangelism" class="my-5 evangelism">
-          <div class="faq text-center">
-            <a href="#evangelism">
-              <h5 class="py-3">Evangelism Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Jerry Armah - Chairman - 0243674210</p></li>
-                    <li><p>Patrick Armah - Secretary - 0243674210</p></li>
-                    <li><p>David Allotey - Member - 0243674210</p></li>
-                    <li><p>Michael Ayettey - Member - 0243674210</p></li>
-                    <li><p>Madam Lucy Adams - Member - 0243674210</p></li>
-                    <li><p>Daniel Narh Ogum - Member - 0243674210</p> </li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="ecu" class="my-5 ecu">
+              <div class="committee shadow text-center">
+                <a href="#ecu">
+                  <h5 class="py-3">Committee on Ecumenism and Relations</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Nanayaw Adane - Chairman - 0243674210</p></li>
+                      <li><p>Priscilla Nyarko - Secretary - 0243674210</p></li>
+                      <li><p>Emmanuel Tettey - Member - 0243674210</p></li>
+                      <li><p>Frederick Amegavi - Member - 0243674210</p></li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="evangelism" class="my-5 evangelism">
+              <div class="committee shadow text-center">
+                <a href="#evangelism">
+                  <h5 class="py-3">Committee on Evangelism</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Jerry Armah - Chairman - 0243674210</p></li>
+                      <li><p>Patrick Armah - Secretary - 0243674210</p></li>
+                      <li><p>Madam Lucy Adams - Member - 0243674210</p></li>
+                      <li><p>Daniel Narh Ogum - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="smc" class="my-5 smc">
-          <div class="faq text-center">
-            <a href="#smc">
-              <h5 class="py-3">School Management Committee (SMC)</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Vivian Danso - Chairman - 0243674210</p></li>
-                    <li><p>Patrick Oduro - Secretary - 0243674210</p></li>
-                    <li><p>Grace Allotey - Member - 0243674210</p></li>
-                    <li><p>Diana Amenudzi - Member - 0243674210</p></li>
-                    <li><p>Lydia Kwasitsu - Member - 0243674210</p></li>
-                    <li><p>Prince Peasah - Member - 0243674210</p> </li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="welfare" class="my-5 welfare">
+              <div class="committee shadow text-center">
+                <a href="#welfare">
+                  <h5 class="py-3">Welfare Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Rose Armah - Chairman - 0243674210</p></li>
+                      <li><p>Francisca Oduro - Secretary - 0243674210</p></li>
+                      <li><p>Eunice Som - Member - 0243674210</p></li>
+                      <li><p>Theophilus Ayettey - Member - 0243674210</p></li>
+                      <li><p>Joyce Baah - Member - 0243674210</p></li>
+                      <li><p>Prince Peasah - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="credit" class="my-5 credit">
+              <div class="committee shadow text-center">
+                <a href="#credit">
+                  <h5 class="py-3">Credit Union</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Amos Som - Chairman - 0243674210</p></li>
+                      <li><p>Frederick Richter - Secretary - 0243674210</p></li>
+                      <li><p>Vivian Danso - Member - 0243674210</p></li>
+                      <li><p>Suzzy Asiamah - Member - 0243674210</p></li>
+                      <li><p>Prince Peasah - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="scholarship" class="my-5 scholarship">
-          <div class="faq text-center">
-            <a href="#scholarship">
-              <h5 class="py-3">Scholarship Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Bernice Quartey - Chairman - 0243674210</p></li>
-                    <li><p>George Amegavi - Secretary - 0243674210</p></li>
-                    <li><p>Janet Amegavi - Member - 0243674210</p></li>
-                    <li><p>Frederick Addo Yobo - Member - 0243674210</p></li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="harvest" class="my-5 harvest">
+              <div class="committee shadow text-center">
+                <a href="#harvest">
+                  <h5 class="py-3">Harvest Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Ebenezer Amakye Bediako - Chairman - 0243674210</p></li>
+                      <li><p>Nathaniel Anati - Secretary - 0243674210</p></li>
+                      <li><p>Eric Tetteh Nartey- Member - 0243674210</p></li>
+                      <li><p>Prince Ansah Som - Member - 0243674210</p></li>
+                      <li><p>Nii Sai Richter - Member - 0243674210</p></li>
+                      <li><p>Nelda Quartey - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="clan" class="my-5 clan">
+              <div class="committee shadow text-center">
+                <a href="#clan">
+                  <h5 class="py-3">Church Life and Nurture (CLAN)</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Samuel Nyarko - Chairman - 0243674210</p></li>
+                      <li><p>Francisca Oduro - Secretary - 0243674210</p></li>
+                      <li><p>Agnes Allotey - Member - 0243674210</p></li>
+                      <li><p>Theophilus Ayettey - Member - 0243674210</p></li>
+                      <li><p>Joyce Baah - Member - 0243674210</p></li>
+                      <li><p>Prince Peasah - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="harvest" class="my-5 harvest">
-          <div class="faq text-center">
-            <a href="#harvest">
-              <h5 class="py-3">Harvest Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Ebenezer Amakye Bediako - Chairman - 0243674210</p></li>
-                    <li><p>Nathaniel Anati - Secretary - 0243674210</p></li>
-                    <li><p>Eric Tetteh Nartey- Member - 0243674210</p></li>
-                    <li><p>Prince Ansah Som - Member - 0243674210</p></li>
-                    <li><p>Nii Sai Richter - Member - 0243674210</p></li>
-                    <li><p>Nelda Quartey - Member - 0243674210</p> </li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="project" class="my-5 project">
+              <div class="committee shadow text-center">
+                <a href="#project">
+                  <h5 class="py-3">Projects and Investment Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Samuel Nyarko - Chairman - 0243674210</p></li>
+                      <li><p>Regina Kumi - Secretary - 0243674210</p></li>
+                      <li><p>Michael Sojar - Member - 0243674210</p></li>
+                      <li><p>Harry Nii Sai - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="worship" class="my-5 worship">
+              <div class="committee shadow text-center">
+                <a href="#worship">
+                  <h5 class="py-3">Worship Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Emmanuel Nortey - Chairman - 0243674210</p></li>
+                      <li><p>Regina Kumi - Secretary - 0243674210</p></li>
+                      <li><p>YAw Boadu - Member - 0243674210</p></li>
+                      <li><p>Harry Nii Sai - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="welfare" class="my-5 welfare">
-          <div class="faq text-center">
-            <a href="#welfare">
-              <h5 class="py-3">Welfare Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h6 class="font-weight-bold">Membership</h6>
-                <div class="membership">
-                  <ul class="list-unstyled">
-                    <li><p>Rose Armah - Chairman - 0243674210</p></li>
-                    <li><p>Francisca Oduro - Secretary - 0243674210</p></li>
-                    <li><p>Eunice Som - Member - 0243674210</p></li>
-                    <li><p>Theophilus Ayettey - Member - 0243674210</p></li>
-                    <li><p>Joyce Baah - Member - 0243674210</p></li>
-                    <li><p>Prince Peasah - Member - 0243674210</p> </li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="edu" class="my-5 edu">
+              <div class="committee shadow text-center">
+                <a href="#edu">
+                  <h5 class="py-3">Education Committee</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Frederick Addo Yobo - Chairman - 0243674210</p></li>
+                      <li><p>Lucy Adams - Secretary - 0243674210</p></li>
+                      <li><p>Vivian Danso - Member - 0243674210</p></li>
+                      <li><p>Suzzy Asiamah - Member - 0243674210</p></li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="smc" class="my-5 smc">
+              <div class="committee shadow text-center">
+                <a href="#smc">
+                  <h5 class="py-3">School Management Committee (SMC)</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Vivian Danso - Chairman - 0243674210</p></li>
+                      <li><p>Patrick Oduro - Secretary - 0243674210</p></li>
+                      <li><p>Diana Amenudzi - Member - 0243674210</p></li>
+                      <li><p>Lydia Kwasitsu - Member - 0243674210</p></li>
+                      <li><p>Prince Peasah - Member - 0243674210</p> </li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="shs" class="my-5 shs">
-          <div class="faq text-center">
-            <a href="#shs">
-              <h5 class="py-3">Social and Health Service Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="family" class="my-5 family">
+              <div class="committee shadow text-center">
+                <a href="#family">
+                  <h5 class="py-3"> Committee on Counselling and Family Life</h5>
+                  <div class="committee-info text-left p-2">
+                    <h5 class="membership py-2">Membership</h5>
+                    <ul class="list-unstyled">
+                      <li><p>Juliana Bediako- Chairman - 0243674210</p></li>
+                      <li><p>Samuel lamptey - Secretary - 0243674210</p></li>
+                      <li><p>Nancy Boakye - Member - 0243674210</p></li>
+                      <li><p>Dorothy Mensah - Member - 0243674210</p></li>
+                    </ul>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-        </div>
-        <div id="hr" class="my-5 hr">
-          <div class="faq text-center">
-            <a href="#hr">
-              <h5 class="py-3">Human Resource Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="credit" class="my-5 credit">
-          <div class="faq text-center">
-            <a href="#credit">
-              <h5 class="py-3">Credit Union</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="worship" class="my-5 worship">
-          <div class="faq text-center">
-            <a href="#worship">
-              <h5 class="py-3">Worship Committee)</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="edu" class="my-5 edu">
-          <div class="faq text-center">
-            <a href="#edu">
-              <h5 class="py-3">Education Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="project" class="my-5 project">
-          <div class="faq text-center">
-            <a href="#project">
-              <h5 class="py-3">Projects and Investment Committee</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div id="property" class="my-5 property">
-          <div class="faq text-center">
-            <a href="#property">
-              <h5 class="py-3">Property Management and Logistics</h5>
-              <i class="fas fa-angle-down fa-2x"></i>
-              <div class="faq-details">
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -328,55 +452,62 @@
         <div class="container py-4">
           <div class="row">
             <div class="col-md-4 mb-5">
-              <div class="contact common">
-                <h5 class="d-block my-3">Contact Us</h5>
-                  <p><i class="fas fa-church fa-lg pr-3"></i> <a href="https://goo.gl/maps/QCh7xSDNAvm5RYZZA" target="_blank">P.C.G. Love Congregation</a></p>
-                  <p><i class="fas fa-map-marker-alt fa-lg pr-3"></i> Digital Address: <a href="https://ghanapostgps.com/map/#GE3557386" target="_blank">(GE-355-7386)</a></p>
-                  <p><i class="fas fa-address-card fa-lg pr-3"></i> P. O. Box AT 904, Achimota, Accra, Ghana.</p>
-                  <p><i class="fas fa-phone-volume fa-lg pr-3"></i> (+233) 200 800 000 / (+233) 205 772 811</p>
-                  <p><i class="fas fa-envelope fa-lg pr-3"></i><a href="mailto:pcgnewlegonoko@gmail.com" target="_blank">pcgnewlegonoko@gmail.com</a></p>
-              </div>
-              <div class="follow">
-                <h5 class="d-block py-4">Follow Us</h5>
-                  <a class="pr-3" href="https://m.facebook.com/groups/771060973302097/?ref=share" target="_blank"><i style="background-color: #ed1c24; border-radius: 50%" class="fab fa-facebook-f fa-2x p-3"></i></a>
-                  <a class="pr-3" href="https://chat.whatsapp.com/JDtta285j3ZJ2BrZIu3hH1" target="_blank"><i style="background-color: #ed1c24; border-radius: 50%" class="fab fa-whatsapp fa-2x p-3"></i></a>
+              <!-- contact details -->
+              <h6 class="text-white my-3">Contact Us</h6>
+                <p><i class="fas fa-church fa-lg pr-3"></i> <a href="https://goo.gl/maps/QCh7xSDNAvm5RYZZA" target="_blank">P.C.G. Love Congregation</a></p>
+                <p><i class="fas fa-map-marker-alt fa-lg pr-3"></i> Digital Address: <a href="https://ghanapostgps.com/map/#GE3557386" target="_blank">(GE-355-7386)</a></p>
+                <p><i class="fas fa-address-card fa-lg pr-3"></i> P. O. Box AT 904, Achimota, Accra, Ghana.</p>
+                <p><i class="fas fa-phone-volume fa-lg pr-3"></i> (+233) 200 800 000 / (+233) 205 772 811</p>
+                <p><i class="fas fa-envelope fa-lg pr-3"></i><a href="mailto:pcgnewlegonoko@gmail.com" target="_blank">pcgnewlegonoko@gmail.com</a></p>
+
+              <!-- Social Media links -->
+              <div class="follow text-white">
+                <h6 class="mt-5">Follow Us</h6>
+                <a class="pr-3" href="https://m.facebook.com/groups/771060973302097/?ref=share" target="_blank"><i style="background-color: #4267B2; border-radius: 50%" class="fab fa-facebook-f fa-lg p-3"></i></a>
+                <a class="pr-3" href="https://chat.whatsapp.com/JDtta285j3ZJ2BrZIu3hH1" target="_blank"><i style="background-color: #128c7e; border-radius: 50%" class="fab fa-whatsapp fa-lg p-3"></i></a>
               </div>
             </div>
-            <div class="col-md-4 mb-5 featuredlinks common">
-              <h5 class="d-block my-3">Featured Links</h5>
-              <h6><a href="jy.html"><p>Junior Youth</p></a></h6>
-              <h6><a href="ypg.html"><p>Y. P. G.</p></a></h6>
-              <h6><a href="yaf.html"><p>Y. A. F.</p></a></h6>
-              <h6><a href="announce.html"><p>Clerk's Diaries</p></a></h6>
-              <h6><a href="gallery.html"><p>Gallery</p></a></h6>
-              <h6><a href="covid.html"><p>Covid-19 Update</p></a></h6>
+
+            <!-- Featured Links -->
+            <div class="col-md-4 mb-5 featuredlinks">
+              <h6 class="text-white my-3">Featured Links</h6>
+              <p><a href="jy.html">Junior Youth</a></p>
+              <p><a href="ypg.html">Young People's Guild (Y . P . G .)</a></p>
+              <p><a href="yaf.html">Young Adults Fellowship (Y . A . F .)</a></p>
+              <p><a href="announce.html">Announcement</a></p>
+              <p><a href="gallery.html">Gallery</a></p>
+              <p><a href="covid.html">Covid-19 Update</a></p>
             </div>
-            <div class="col-md-4 latest common">
-              <h5 class="d-block my-3">Latest News</h5>
+
+            <!-- Latest News -->
+            <div class="col-md-4 latest">
+              <h6 class="text-white my-3">Latest News</h6>
+              <!-- News1 -->
               <div class="d-flex align-items-center mb-3">
                 <a class="mr-3" href="#"><img class="img-fluid" src="./resources/images/intro.jpg" alt=""></a>
                   <div class="flex-column">
-                    <a href="#"><h6>Introduction of new Minister-in-Charge</h6></a>
+                    <p><a href="#">Introduction of new Minister-in-Charge</a></p>
                     <p class="text-muted"><i class="fas fa-calendar-day"></i> 22nd November, 2020</p>
                   </div>
               </div>
-
-              <div class="d-flex align-items-center mb-3">
+              <!-- News 2-->
+              <div class="d-flex align-items-center">
                 <a class="mr-3" href="#"><img class="img-fluid" src="./resources/images/carol.jpg" alt=""></a>
                   <div class="flex-column">
-                    <a href="#"><h6>Carol Service 2020 featuring all Groups</h6></a>
+                    <p><a href="#">Carol Service 2020 featuring all Groups</a></p>
                     <p class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020</p>
                   </div>
               </div>
             </div>
           </div>
-          <div class="border-top pt-5 mt-5 copyright">
+
+          <!-- Copyright -->
+          <div class="border-top mt-4 pt-5 copyright">
             <p>&copy; 2020 PCG- Official Website of Presbyterian Church of Ghana, Love Congregation, All rights reserved</p>
             <p>Designed by <a class="text-white" href="team.html"><i class="far fa-heart"></i> Love Media Team</a> - Powered By <a class="text-white" href="#">WebHive Agency</a></p>
           </div>
         </div>
       </footer>
-
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
