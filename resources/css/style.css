@@ -131,3 +131,15 @@ footer a:hover {
   background-color: #ed1c24;
   text-decoration-line: none;
 }
+
+/** Media Queries **/
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+}
