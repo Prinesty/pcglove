@@ -143,3 +143,10 @@ footer a:hover {
     font-size: 0.9rem;
   }
 }
+
+/** The Session **/
+  .flip-card-front {
+      border-radius: 8px;
+      box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
+      background: #fff;
+  }
