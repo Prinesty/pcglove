@@ -86,6 +86,151 @@
         <p>Covid-19</p>
       </div>
 
+      <div class="container border-top">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card my-5">
+              <div class="card-body bg-danger text-white text-center">
+                <a href="#" data-toggle="modal" data-target=".covid-modal-lg"><h5>Covid-19 Update</h5></a>
+              </div>
+              <img class="card-img-bottom" src="resources/images/covid.jpg" alt="clinical mask">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card my-5">
+              <div class="card-body bg-danger text-white text-center">
+                <a href="#" data-toggle="modal" data-target=".prayer-modal-lg"><h5>Prayer Bulletin</h5></a>
+              </div>
+              <img class="card-img-bottom" src="resources/images/pray.jpg" alt="pray">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card my-5">
+              <div class="card-body bg-danger text-white text-center">
+                <a href="#" data-toggle="modal" data-target=".bible-modal-lg"><h5>Bible Readings</h5></a>
+              </div>
+              <img class="card-img-bottom" src="resources/images/bible.jpg" alt="bible">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card my-5">
+              <div class="card-body bg-danger text-white text-center">
+                <a href="#" data-toggle="modal" data-target=".message-modal-lg"><h5>Minister's Letters</h5></a>
+              </div>
+              <img class="card-img-bottom" src="resources/images/message.jpg" alt="message">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Covid-19 modal -->
+      <div class="modal fade covid-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myCovid" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark" id="myCovid">Covid-19</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center my-4">
+              <div class="container">
+                <div class="row text-white">
+                  <div class="col-md-6 bg-primary case">
+                    <h5>Active Cases</h5>
+                    <h1>1424</h1>
+                  </div>
+                  <div class="col-md-6 bg-success">
+                    <h5>Confirmed Cases</h5>
+                    <h1>50,457</h1>
+                  </div>
+                  <div class="col-md-6 bg-warning">
+                    <h5>New Cases</h5>
+                    <h1>81</h1>
+                  </div>
+                  <div class="col-md-6 bg-danger">
+                    <h5>Deaths</h5>
+                    <h1>323</h1>
+                  </div>
+                  <div class="col-md-12 bg-secondary">
+                    <h5>Recoveries</h5>
+                    <h1>48,710</h1>
+                  </div>
+                </div>
+              </div>
+              <p class="text-dark mt-2">Last Updated: Wednesday, 18th November, 2020; 23:59</p>
+              <p class="small text-dark my-2">Source: <a href="https://ghanahealthservice.org/covid19/" target="_blank">Ministry of Health, Ghana</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Prayer Bulletin -->
+      <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark" id="myPrayer">Prayer Bulletin for the Week</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center my-4">
+              <div class="container">
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bible Study -->
+      <div class="modal fade bible-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myBible" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark" id="myBible">Bible Study Guide</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center my-4">
+              <div class="container">
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Message from the Minister -->
+      <div class="modal fade message-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myMessage" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-dark" id="myMessage">Message from the Minister</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center my-4">
+              <div class="container">
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <div class="container py-4">
           <div class="row">
@@ -114,49 +259,6 @@
               <p><a href="yaf.html">Young Adults Fellowship (Y . A . F .)</a></p>
               <p><a href="announce.html">Announcement</a></p>
               <p><a href="gallery.html">Gallery</a></p>
-              <p><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Covid-19 Update</a></p>
-            </div>
-
-            <!-- Large modal -->
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="myLargeModalLabel">Covid-19</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="text-center my-4">
-                    <p><b>Last Updated</b>: Wednesday, 18th November, 2020; 23:59</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-4 bg-primary case">
-                          <h5>Active Cases</h5>
-                          <h1>1424</h1>
-                        </div>
-                        <div class="col-lg-2 bg-success">
-                          <h5>Confirmed Cases</h5>
-                          <h1>50,457</h1>
-                        </div>
-                        <div class="col-lg-2 bg-warning">
-                          <h5>New Cases</h5>
-                          <h1>81</h1>
-                        </div>
-                        <div class="col-lg-2 bg-danger">
-                          <h5>Deaths</h5>
-                          <h1>323</h1>
-                        </div>
-                        <div class="col-lg-2 bg-secondary">
-                          <h5>Recoveries</h5>
-                          <h1>48,710</h1>
-                        </div>
-                      </div>
-                    </div>
-                    <p class="muted small my-2">Source: <a href="https://ghanahealthservice.org/covid19/" target="_blank">Ministry of Health, Ghana</a></p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <!-- Latest News -->
