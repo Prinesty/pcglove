@@ -114,7 +114,7 @@ footer a:hover {
 
 /** Covid **/
 .covid {
-  max-width: 850px;
+  max-width: 1200px;
 }
 .covid img {
   border-radius: 25px;
@@ -140,7 +140,7 @@ footer a:hover {
 
 @media only screen and (max-width: 767px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .info a {
