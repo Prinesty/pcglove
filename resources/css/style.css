@@ -108,6 +108,10 @@ footer a:hover {
    line-height: 1.2;
  }
 
+ thead {
+   color: #ed1c24;
+ }
+
 /** Covid **/
 .covid {
   max-width: 850px;
