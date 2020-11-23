@@ -143,6 +143,10 @@ footer a:hover {
     font-size: 2rem;
   }
 
+  .index-transition h5 {
+    font-size: 1.8rem;
+  }
+
   .info a {
     font-size: 0.9rem;
   }
@@ -154,3 +158,5 @@ footer a:hover {
       box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
       background: #fff;
   }
+
+/** Index **/
