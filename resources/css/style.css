@@ -2,6 +2,7 @@
 body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
 }
 a {
   color:inherit;
@@ -52,6 +53,11 @@ h1, h5, h6{
 }
 .main-menu h5 {
   line-height: 2;
+}
+
+/** Slideshow **/
+.slideshow {
+  height: 50%;
 }
 
 /** Footer Styling **/
@@ -154,7 +160,14 @@ footer a:hover {
   .event p {
     display: none;
   }
+
+  .event h5,
+  .clerk-update h5,
+  .special h5 {
+    font-size: 1rem;
+  }
 }
+
 
 /** The Session **/
   .flip-card-front {
