@@ -1,16 +1,69 @@
 /** Standard Styling **/
 body {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   background-color: #f8f9fa;
 }
 a {
   color:inherit;
+  text-decoration: none;
 }
-h1, h5, h6{
+h1, h3, h5, h6 {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
+
+
+/** Media Queries Mobile Viewport**/
+@media only screen and (max-width: 576px) {
+  .navHide {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/** Media Queries Tablet and below**/
+@media only screen and (max-width: 768px) {
+  .event-info {
+    display: none;
+  }
+}
+
+/** Media Queries Tablet and below**/
+@media only screen and (max-width: 992px) {
+}
+
+/** HOMEPAGE **/
+/** Navigation Styling **/
+.navigation {
+ font-family: 'Raleway', sans-serif;
+}
+.navigation a:hover {
+ text-decoration-line: none;
+ color: #ed1c24;
+}
+.navigation .active {
+  color: #ed1c24;
+}
+
+/** Footer **/
+footer {
+ background-color: #282828;
+ color: #c3c3c3;
+}
+footer a:hover {
+  color: inherit;
+}
+
+/** HOMEPAGE ENDS **/
+
 [data-title]:hover:after {
    opacity: 1;
    transition: all 0.1s ease 0.3s;
@@ -37,57 +90,19 @@ h1, h5, h6{
    position: relative;
 }
 
- /** Navigation Styling **/
-#navigation {
-  font-family: 'Raleway', sans-serif;
-}
-#navigation a:hover {
-  text-decoration-line: none;
-  color: #ed1c24;
- }
-#navigation li:first-child {
-  color: #ed1c24;
-}
-.menu-img {
-  max-width: 350px;
-}
-.main-menu h5 {
-  line-height: 2;
-}
-
-/** Slideshow **/
-.slideshow {
-  height: 50%;
-}
-
-/** Footer Styling **/
-footer {
- background-color: #282828;
- color: #c3c3c3;
- font-size: 14px;
-}
-footer a:hover {
-  color: inherit;
-}
-
- /** Ministry **/
-.ministry p {
-  font-size: 14px;
-}
+ /** MINISTRY **/
 .ministry a {
-  text-decoration: none;
+  text-decoration-line: none;
  }
 .card-header {
   background-color: #ed1c24;
-  border-bottom: 1px solid rgba(0,0,0,.125);
   color: #ffffff;
-  transition: backgorund 100ms ease-out 200ms;
  }
 .card-header:hover {
   background: #e9ecef;
 }
 
- /** Committees **/
+ /** COMMITTEES **/
  .tab-content a:hover {
    text-decoration: none;
    color: #ed1c24;
@@ -110,22 +125,16 @@ footer a:hover {
    color: #000000;
    border-radius: 5px;
  }
- .membership li {
-   line-height: 1.2;
- }
-
  thead {
    color: #ed1c24;
+   font-weight: bold;
  }
 
-/** Covid **/
-.covid {
-  max-width: 1200px;
-}
-.covid img {
-  border-radius: 25px;
-  box-shadow: 5px 10px #888888;
-}
+ /** SESSION **/
+ .flip-card-front {
+   border-radius: 8px;
+   box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
+ }
 
 /** Announcement **/
 .topic h6 {
@@ -133,6 +142,8 @@ footer a:hover {
   }
 
 /** Back Home **/
+
+
 .back-home a {
   background-color: #282828;
   border-radius: 25px;
@@ -141,39 +152,3 @@ footer a:hover {
   background-color: #ed1c24;
   text-decoration-line: none;
 }
-
-/** Media Queries **/
-
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .index-transition h5 {
-    font-size: 1.8rem;
-  }
-
-  .info a {
-    font-size: 0.9rem;
-  }
-
-  .event p {
-    display: none;
-  }
-
-  .event h5,
-  .clerk-update h5,
-  .special h5 {
-    font-size: 1rem;
-  }
-}
-
-
-/** The Session **/
-  .flip-card-front {
-      border-radius: 8px;
-      box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
-      background: #fff;
-  }
-
-/** Index **/
