@@ -47,6 +47,12 @@ h1, h3, h5, h6 {
   }
 }
 
+/** Media Queries Laptop View **/
+@media only screen and (min-width: 992px) {
+  .navigation ul li {
+    text-transform: uppercase;
+  }
+}
 
 /** HOMEPAGE **/
 /** Navigation Styling **/
