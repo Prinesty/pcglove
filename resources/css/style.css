@@ -69,7 +69,7 @@ h1, h3, h5, h6 {
 
 /** Footer **/
 footer {
- background-color: #282828;
+ background-color: #000000;
  color: #c3c3c3;
 }
 footer a:hover {
@@ -155,14 +155,14 @@ footer a:hover {
     color: #ed1c24;
   }
 
-/** Back Home **/
-
-
-.back-home a {
-  background-color: #282828;
-  border-radius: 25px;
+.flex-date a {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-right: 3.5rem;
+  cursor: grab;
 }
-.back-home a:hover {
-  background-color: #ed1c24;
-  text-decoration-line: none;
+
+.flex-date .tab-content {
+  color: #ed1c24;
+  font-weight: bold;
 }
