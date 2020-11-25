@@ -34,13 +34,19 @@ thead {
     display: none;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   h3 {
     font-size: 1.4rem;
   }
   .navbar-brand img {
     width: 130px;
+  }
+  .mobile-almanac {
+    font-size: 0.7rem;
+  }
+  .mobile-almanac h5 {
+    font-size: 0.8rem;
   }
 }
 
@@ -69,6 +75,9 @@ thead {
 }
 .navigation .active {
   color: #ed1c24;
+}
+.special a:hover {
+  text-decoration: none;
 }
 
 /** Footer **/
@@ -151,7 +160,8 @@ footer a:hover {
    box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
  }
 
-/** Announcement **/
+/** Announcement & Programmes**/
 .topic h6 {
     color: #ed1c24;
+    line-height: 2;
   }
