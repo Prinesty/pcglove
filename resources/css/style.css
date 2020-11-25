@@ -14,20 +14,27 @@ h1, h3, h5, h6 {
 }
 
 
-/** Media Queries Mobile Viewport**/
+/** Media Queries Mobile Viewport 380px and lower**/
+@media only screen and (max-width: 380px) {
+  .carousel-inner h1 {
+    font-size: 1.4rem;
+  }
+  .event h3 {
+    font-size: 1rem;
+  }
+}
+
+/** Media Queries Mobile Viewport **/
 @media only screen and (max-width: 576px) {
   .navHide {
     display: none;
   }
-
   h1 {
     font-size: 1.7rem;
   }
-
   h3 {
     font-size: 1.4rem;
   }
-
   .navbar-brand img {
     width: 130px;
   }
