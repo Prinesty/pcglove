@@ -114,16 +114,13 @@
             <div class="col-md-3 special">
               <h5 class="text-danger">Special Features</h5>
               <div class="py-2">
-                <a href="almanac.html"><button type="button" name="button" class="btn btn-dark">Almanac 2021</button></a>
+                <a href="almanac.html"><button type="button" name="button" class="btn btn-dark btn-block">Almanac 2021</button></a>
               </div>
               <div class="py-2">
-                <a href="programme.html"><button type="button" name="button" class="btn btn-dark">Programme Outline 2021</button></a>
+                <a href="programme.html"><button type="button" name="button" class="btn btn-dark btn-block">Programme Outline 2021</button></a>
               </div>
               <div class="py-2">
-                <a href="#"><button type="button" name="button" class="btn btn-dark disabled">Hymn with Sound</button></a>
-              </div>
-              <div class="py-2">
-                <a href="#"><button type="button" name="button" class="btn btn-dark disabled">Search Engine</button></a>
+                <a href="#" data-toggle="modal" data-target=".covid-modal-lg"><button type="button" name="button" class="btn btn-dark btn-block">Covid-19 Updates</button></a>
               </div>
             </div>
           </div>
@@ -144,7 +141,7 @@
                     <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#scrollable-news0">Read more</button>
                   </div>
               </div>
-              <div class="d-flex align-items-start py-4">
+              <div class="d-flex align-items-start py-4 border-bottom">
                 <a class="col-md-6" href="#"><img class="img-fluid" src="./resources/images/program.jpg" alt=""></a>
                 <div class="flex-column col-md-6">
                   <h3><a href="#">Programmes for 2021</a></h3>
@@ -197,27 +194,26 @@
               <h5 class="text-danger">Upcoming Events</h5>
               <div class="py-4">
                 <a href="#"><img class="img-fluid" src="./resources/images/carol1.jpg" alt=""></a>
-                <h5 class="py-2"><a href="#">Carol Service</a></h5>
-                <p class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020</p>
-              </div>
-              <div class="py-4">
-                <a href="#"><img class="img-fluid" src="./resources/images/sch.jpg" alt=""></a>
-                <h5 class="py-2"><a href="#">Rep Ur School</a></h5>
-                <p class="text-muted"><i class="fas fa-calendar-day"></i> March, 2021</p>
+                <h5 class="pt-2">Carol Service</h5>
+                <p class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020
+                   <br><i class="far fa-clock"></i> 7pm - 9pm
+                 </p>
               </div>
               <div class="py-4">
                 <img class="img-fluid" src="./resources/images/shida.jpg" alt="">
-                <h5 class="py-2">Shidaa 2021</h5>
-                <p class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021</p>
+                <h5 class="pt-2">Shidaa 2021</h5>
+                <p class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021
+                  <br><i class="far fa-clock"></i> 5:30pm prompt
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <!-- Four Modals -->
-        <div class="four-modals border-top">
+        <!-- Three Modals -->
+        <div class="three-modals">
           <h5 class="text-danger my-3">Inspiration for the Week</h5>
           <div class="row my-4">
-            <div class="col-md-3 py-2">
+            <div class="col-md-4 py-2">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".letter-modal-lg">
                   <img class="card-img" src="./resources/images/letter.jpg" alt="letter">
@@ -227,7 +223,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-3 py-2">
+            <div class="col-md-4 py-2">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".prayer-modal-lg">
                   <img class="card-img" src="./resources/images/pray.jpg" alt="praying-hands">
@@ -237,7 +233,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-3 py-2">
+            <div class="col-md-4 py-2">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".verse-modal-lg">
                   <img class="card-img" src="./resources/images/verse.jpg" alt="bible">
@@ -247,19 +243,9 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-3 py-2">
-              <div class="card">
-                <a href="#" data-toggle="modal" data-target=".covid-modal-lg">
-                  <img class="card-img" src="./resources/images/covid1.jpg" alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-text text-white">Covid-19 Updates</h5>
-                  </div>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
-        <!-- Four Hidden Modals -->
+        <!-- Four Hidden Modals on Homepage -->
         <div class="four-modals-hidden">
           <!-- Message from the Minister -->
           <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
