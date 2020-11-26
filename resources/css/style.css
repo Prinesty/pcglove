@@ -24,7 +24,7 @@ thead {
     font-size: 1.4rem;
   }
   .clerk-update h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -34,7 +34,7 @@ thead {
     display: none;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
   h3 {
     font-size: 1.4rem;
@@ -47,6 +47,10 @@ thead {
   }
   .mobile-almanac h5 {
     font-size: 0.8rem;
+  }
+  .heading {
+    text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -122,7 +126,7 @@ footer a:hover {
   text-decoration-line: none;
  }
 .card-header {
-  background-color: #ed1c24;
+  background-color: #007bff;
   color: #ffffff;
  }
 .card-header:hover {
@@ -153,11 +157,10 @@ footer a:hover {
    border-radius: 5px;
  }
 
-
  /** SESSION **/
  .flip-card-front {
    border-radius: 8px;
-   box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,.1);
+   box-shadow: 0rem 0.8rem 0.5rem 0.8rem rgba(0,0,0,.1);
  }
 
 /** Announcement & Programmes**/
