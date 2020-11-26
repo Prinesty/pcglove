@@ -66,6 +66,10 @@ thead {
   .navigation ul li {
     text-transform: uppercase;
   }
+
+  .media-section h3 {
+    font-size: 1.3rem;
+  }
 }
 
 /** HOMEPAGE **/
