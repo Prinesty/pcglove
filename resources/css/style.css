@@ -93,8 +93,13 @@ footer {
  background-color: #000000;
  color: #c3c3c3;
 }
+
 footer a:hover {
   color: inherit;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
 }
 
 /** HOMEPAGE ENDS **/
