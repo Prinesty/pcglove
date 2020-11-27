@@ -108,13 +108,12 @@ thead {
 footer {
  background-color: #343a40;;
  color: #ffffff;
+ font-size: 0.8rem;
 }
 footer a:hover {
   color: inherit;
 }
-footer .copyright {
-  font-size: 0.8rem;
-}
+
 
 /** HOMEPAGE ENDS **/
 
