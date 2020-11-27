@@ -68,13 +68,13 @@
       <div class="container">
         <!-- Heading -->
         <div class="heading my-5">
-          <h1>Announcement</h1>
+          <h1>News & Announcement</h1>
         </div>
-        <!-- Current Announcement -->
+        <!-- Weekly Announcement -->
         <div class="my-5">
-          <h4 class="my-3">Week 47</h4>
-          <nav class="navbar navbar-light bg-dark rounded">
-            <h3>22nd Nov. 2020</h3>
+          <h4 class="my-3">Announcement by the Church Clerk</h4>
+          <nav class="navbar navbar-light bg-danger rounded">
+            <h3>Week 47: 22nd Nov. 2020</h3>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#no47" aria-controls="no47" aria-expanded="false" aria-label="Toggle navigation">
               <span><i class="fas fa-sort-down text-white"></i></span>
             </button>
@@ -109,34 +109,16 @@
             </div>
           </nav>
         </div>
-        <!-- Old Notices -->
-        <div class="mb-5">
-          <nav class="navbar navbar-light bg-danger rounded">
-            <h3>Old Notices</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#oldnotice" aria-controls="oldnotice" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="fas fa-list-ol text-white"></i></span>
-            </button>
-
-            <div class="collapse navbar-collapse bg-white rounded" id="oldnotice">
-              <nav class="navbar navbar-light rounded">
-                <div class="collapse navbar-collapse topic" id="oldnotice">
-                  <div class="my-4">
-                    <h5>Week 46: 15th November, 2020</h5>
-                    <h6>Summary/Brief</h6>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </nav>
-        </div>
         <!-- News Column -->
         <div class="my-5">
           <div class="row">
-            <div class="col-md-6">
-              <h4>News Column</h4>
+            <!-- News Column-->
+            <div class="col-md-6 mt-5">
+              <h4 class="text-center">News Column</h4>
               <div class=" d-flex justify-content-between flex-column">
+                <!-- News Item 1 -->
                 <div id="news1" class="news1 my-4">
-                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news1-modal-lg">1. Carol Service 2020</button>
+                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news1-modal-lg"><h3>Carol Service 2020</h3></button>
                   <div class="modal fade news1-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myNews1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                     <div class="modal-content">
@@ -162,8 +144,9 @@
                   </div>
                   </div>
                 </div>
+                <!-- News Item 2 -->
                 <div id="news2" class="news2 my-4">
-                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news2-modal-lg">2. A Night of Woship</button>
+                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news2-modal-lg"><h3>News 2</h3></button>
                   <div class="modal fade news2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myNews2" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -187,8 +170,9 @@
                     </div>
                   </div>
                 </div>
-                <div id="news3" class="news2 my-4">
-                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news3-modal-lg">3. Example 3</button>
+                <!-- News Item 3 -->
+                <div id="news3" class="news3 my-4">
+                  <button type="button" name="button" class="btn btn-lg btn-block btn-dark p-5" data-toggle="modal" data-target=".news3-modal-lg"><h3>News 3</h3></button>
                   <div class="modal fade news3-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myNews3" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -212,6 +196,14 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <!-- Advert Column -->
+            <div class="col-md-6 mt-5">
+              <h4 class="text-center pb-4">Advertisement Column</h4>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="./resources/videos/ready.mp4" autoplay width="" height=""></iframe>
+              </div>
+              </video>
             </div>
           </div>
         </div>
