@@ -54,6 +54,7 @@
           </div>
         </div>
       </nav>
+      <!-- Navbar Toggler with Logo -->
       <nav class="navbar navbar-dark bg-dark">
         <div class="container d-flex">
           <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./resources/images/logo.png" width="200"  alt=""></a>
@@ -64,90 +65,144 @@
       </nav>
       <!-- Main Content-->
       <div class="container">
-        <!-- Slideshow of Major News -->
-        <div class="slideshow bd-example">
+        <!-- Slideshow & Special Features-->
+        <div class="home-section-1 mb-5 mt-3">
           <div class="row">
-            <div class="col-md-9 py-3">
-              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <!--Slideshow -->
+            <div class="col-md-9 mb-4">
+              <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  <li data-target="#carouselCaptions" data-slide-to="1" class="active"></li>
+                  <li data-target="#carouselCaptions" data-slide-to="2"></li>
+                  <li data-target="#carouselCaptions" data-slide-to="3"></li>
                 </ol>
+                <!-- Slideshow Images with Captions -->
                 <div class="carousel-inner" role="listbox">
+                  <!-- Image 1 -->
                   <div class="carousel-item active">
                     <img class="d-block w-100 img-fluid" alt="First slide [900x450]" src="./resources/images/2.jpg" data-holder-rendered="true">
                     <div class="carousel-caption">
-                      <h1>Rep Ur School</h1>
-                      <h6 class="clerk-info">We meet to part, and we part to meet.</h6>
+                      <h1><a href="#">Rep Ur School</a></h1>
+                      <p class="clerk-info">We meet to part, and we part to meet.<p>
                     </div>
                   </div>
+                  <!-- Image 2 -->
                   <div class="carousel-item">
                     <img class="d-block w-100 img-fluid" alt="Second slide [900x450]" src="./resources/images/1.jpg" data-holder-rendered="true">
                     <div class="carousel-caption">
-                      <h1>Youth Excursion</h1>
-                      <h6 class="clerk-info">Organized by Local Session for the youth</h6>
+                      <h1><a href="#">Eastern Waves</a></h1>
+                      <p class="clerk-info">Organized by Taifa District for the youth</p>
                     </div>
                   </div>
+                  <!-- Image 3 -->
                   <div class="carousel-item">
                     <img class="d-block w-100 img-fluid" alt="Third slide [900x450]" src="./resources/images/3.jpg" data-holder-rendered="true">
                     <div class="carousel-caption">
-                      <h1>Boys to Men Talk</h1>
-                      <h6 class="clerk-info">Relationship Seminar on the 3rd of April 2021</h6>
+                      <h1><a href="#">Boys to Men</a></h1>
+                      <p class="clerk-info">Relationship Seminar on the 3rd of April 2021</p>
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <!-- Slideshow Controls -->
+                <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="sr-only">Previous</span></a>
+                <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                  <span class="sr-only">Next</span></a>
               </div>
             </div>
-            <div class="col-md-3 special pt-3">
-              <h5 class="text-danger">Special Features</h5>
+            <!-- Special Features -->
+            <div class="col-md-3 special">
+              <h4>Special Features</h4>
+              <!-- Almanac -->
               <div class="py-2">
                 <a href="almanac.html"><button type="button" name="button" class="btn btn-dark btn-block">Almanac 2021</button></a>
               </div>
+              <!--Programme -->
               <div class="py-2">
                 <a href="programme.html"><button type="button" name="button" class="btn btn-dark btn-block">Programme Outline 2021</button></a>
               </div>
+              <!-- Covid-19 -->
               <div class="py-2">
                 <a href="#" data-toggle="modal" data-target=".covid-modal-lg"><button type="button" name="button" class="btn btn-dark btn-block">Covid-19 Updates</button></a>
+              </div>
+              <!-- Covid-19 modal -->
+              <div class="modal fade covid-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myCovid" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="myCovid">Covid-19</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center my-4">
+                      <div class="container">
+                        <div class="row text-white">
+                          <div class="col-md-6 bg-primary case">
+                            <h5>Active Cases</h5>
+                            <h1>1424</h1>
+                          </div>
+                          <div class="col-md-6 bg-success">
+                            <h5>Confirmed Cases</h5>
+                            <h1>50,457</h1>
+                          </div>
+                          <div class="col-md-6 bg-warning">
+                            <h5>New Cases</h5>
+                            <h1>81</h1>
+                          </div>
+                          <div class="col-md-6 bg-danger">
+                            <h5>Deaths</h5>
+                            <h1>323</h1>
+                          </div>
+                          <div class="col-md-12 bg-secondary">
+                            <h5>Recoveries</h5>
+                            <h1>48,710</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="text-dark mt-2">Last Updated: Wednesday, 18th November, 2020; 23:59</p>
+                      <p class="small text-dark my-2">Source: <a href="https://ghanahealthservice.org/covid19/" target="_blank">Ministry of Health, Ghana</a></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Clerk's Diaries & Upcoming Events -->
-        <div class="upcoming my-4">
+        <div class="home-section-2 my-5">
           <div class="row">
             <!-- Clerk's Diaries -->
-            <div class="clerk-update col-md-9 my-2">
-              <h5 class="text-danger">Clerk's Diary</h5>
+            <div class="clerk-update col-md-9">
+              <h4>Clerk's Diary</h4>
+              <!-- Clerk News 1-->
               <div class="d-flex align-items-start py-4 border-bottom">
                 <div class="col-md-6">
                   <img class="img-fluid" src="./resources/images/induction.jpg" alt="">
                 </div>
-                <div class="flex-column col-md-6">
+                <div class="col-md-6">
                   <h3>Akwaaba Rev. Dr Kofi Aidoo</h3>
                   <p class="text-muted"><i class="fas fa-calendar-day"></i> 10th January, 2021</p>
                   <p class="clerk-info">The Induction Service of the Rev. Dr. Kofi Aidoo will be held at the P.C.G Love Congregation Auditorium
                   from 9am -11am...</p>
-                  <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#scrollable-news0">Read more</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news0">Read more</button>
                 </div>
               </div>
-              <div class="d-flex align-items-start py-4 border-bottom">
+              <!-- Clerk News 2 -->
+              <div class="d-flex align-items-start py-4">
                 <div class="col-md-6">
                   <img class="img-fluid" src="./resources/images/program.jpg" alt="">
                 </div>
-                <div class="flex-column col-md-6">
+                <div class="col-md-6">
                   <h3>Programmes for 2021</h3>
                   <p class="text-muted"><i class="fas fa-calendar-day"></i> Deadline: 17th December, 2020</p>
                   <p class="clerk-info">The Session Clerk admonishes all generational groups and committees to submit their programmes for ...</p>
-                  <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#scrollable-news1">Read more</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news1">Read more</button>
                 </div>
               </div>
             </div>
@@ -156,7 +211,7 @@
               <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenteredLabel">News Heading</h5>
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">News 1 Heading</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -165,7 +220,7 @@
                     <p>...</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -174,7 +229,7 @@
               <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenteredLabel">News Heading 2</h5>
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">News 2 Heading </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -183,70 +238,75 @@
                     <p>...</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
 
             <!-- Upcoming Events -->
-            <div class="event col-md-3 my-2">
-              <h5 class="text-danger">Upcoming Events</h5>
+            <div class="event col-md-3">
+              <h4>Upcoming Events</h4>
+              <!-- Event 1 -->
               <div class="py-4">
-                <a href="#"><img class="img-fluid" src="./resources/images/carol1.jpg" alt=""></a>
-                <h5 class="pt-2">Carol Service</h5>
-                <p class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020
+                <a href="#"><img class="img-fluid" src="./resources/images/carol1.jpg" alt="">
+                <h5 class="pt-2">Carol Service</h5></a>
+                <small class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020
                    <br><i class="far fa-clock"></i> 7pm - 9pm
-                 </p>
+                 </small>
               </div>
+              <!-- Event 2 -->
               <div class="py-4">
-                <img class="img-fluid" src="./resources/images/shida.jpg" alt="">
-                <h5 class="pt-2">Shidaa 2021</h5>
-                <p class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021
+                <a href="#"><img class="img-fluid" src="./resources/images/shida.jpg" alt="">
+                <h5 class="pt-2">Shidaa 2021</h5></a>
+                <small class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021
                   <br><i class="far fa-clock"></i> 5:30pm prompt
-                </p>
+                </small>
               </div>
             </div>
           </div>
         </div>
-        <!-- Three Modals -->
-        <div class="three-modals">
-          <h5 class="text-danger my-3">Inspiration for the Week</h5>
-          <div class="row my-4">
-            <div class="col-md-4 py-2">
+        <!-- Inspiration -->
+        <div class="home-section-3 py-3 border-top">
+          <h4>Inspiration</h4>
+          <div class="row">
+            <!-- Minister's Letters -->
+            <div class="col-md-4 py-3">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".letter-modal-lg">
                   <img class="card-img" src="./resources/images/letter.jpg" alt="letter">
-                  <div class="card-img-overlay">
-                    <h5 class="card-text text-white">Minister's Letters</h5>
+                  <div class="card-img-overlay text-white">
+                    <h5>Minister's Letters</h5>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="col-md-4 py-2">
+            <!-- Prayer Bulletin -->
+            <div class="col-md-4 py-3">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".prayer-modal-lg">
                   <img class="card-img" src="./resources/images/pray.jpg" alt="praying-hands">
-                  <div class="card-img-overlay">
-                    <h5 class="card-text text-white">Prayer Bulletin</h5>
+                  <div class="card-img-overlay text-white">
+                    <h5>Prayer Bulletin</h5>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="col-md-4 py-2">
+            <!-- Scripture Reading -->
+            <div class="col-md-4 py-3">
               <div class="card">
                 <a href="#" data-toggle="modal" data-target=".verse-modal-lg">
                   <img class="card-img" src="./resources/images/verse.jpg" alt="bible">
-                  <div class="card-img-overlay">
-                    <h5 class="card-text text-white">Daily Scripture</h5>
+                  <div class="card-img-overlay text-white">
+                    <h5>Daily Scripture</h5>
                   </div>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <!-- Four Hidden Modals on Homepage -->
-        <div class="four-modals-hidden">
+        <!-- Three Inspiration Modals -->
+        <div class="inspiration-modals">
           <!-- Message from the Minister -->
           <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -259,11 +319,11 @@
                 </div>
                 <div class="modal-body text-center my-4">
                   <div class="container">
-
+                    <p>...</p>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -280,11 +340,11 @@
                 </div>
                 <div class="modal-body text-center my-4">
                   <div class="container">
-
+                    <p>...</p>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -294,62 +354,18 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title text-dark" id="myVerse">Bible Study Guide</h5>
+                  <h5 class="modal-title text-dark" id="myVerse">Scripture / Bible Readings</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body text-center my-4">
                   <div class="container">
-
+                    <p>...</p>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Covid-19 modal -->
-          <div class="modal fade covid-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myCovid" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title text-dark" id="myCovid">Covid-19</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center my-4">
-                  <div class="container">
-                    <div class="row text-white">
-                      <div class="col-md-6 bg-primary case">
-                        <h5>Active Cases</h5>
-                        <h1>1424</h1>
-                      </div>
-                      <div class="col-md-6 bg-success">
-                        <h5>Confirmed Cases</h5>
-                        <h1>50,457</h1>
-                      </div>
-                      <div class="col-md-6 bg-warning">
-                        <h5>New Cases</h5>
-                        <h1>81</h1>
-                      </div>
-                      <div class="col-md-6 bg-danger">
-                        <h5>Deaths</h5>
-                        <h1>323</h1>
-                      </div>
-                      <div class="col-md-12 bg-secondary">
-                        <h5>Recoveries</h5>
-                        <h1>48,710</h1>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="text-dark mt-2">Last Updated: Wednesday, 18th November, 2020; 23:59</p>
-                  <p class="small text-dark my-2">Source: <a href="https://ghanahealthservice.org/covid19/" target="_blank">Ministry of Health, Ghana</a></p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -360,9 +376,9 @@
       <footer>
         <div class="container py-4">
           <div class="row">
-            <div class="col-md-4 mb-5 contact">
-              <!-- contact details -->
-              <h5 class="text-white my-3">Contact Us</h5>
+            <!-- Contact -->
+            <div class="col-md-4 mb-5">
+              <h5 class="my-3">Contact Us</h5>
               <p><i class="fas fa-church fa-lg pr-3"></i> <a href="https://goo.gl/maps/QCh7xSDNAvm5RYZZA" target="_blank">P.C.G. Love Congregation</a></p>
               <p><i class="fas fa-map-marker-alt fa-lg pr-3"></i> Digital Address: <a href="https://ghanapostgps.com/map/#GE3557386" target="_blank">(GE-355-7386)</a></p>
               <p><i class="fas fa-address-card fa-lg pr-3"></i> P. O. Box AT 904, Achimota, Accra, Ghana.</p>
@@ -370,27 +386,25 @@
               <p><i class="fas fa-envelope fa-lg pr-3"></i><a href="mailto:pcgnewlegonoko@gmail.com" target="_blank">pcgnewlegonoko@gmail.com</a></p>
             </div>
             <!-- Featured Links -->
-            <div class="col-md-4 mb-5 featured-links">
-              <h5 class="text-white my-3">Featured Links</h5>
-              <p><a href="jy.html">Junior Youth</a></p>
+            <div class="col-md-4 mb-5">
+              <h5 class="my-3">Featured Links</h5>
+              <p><a href="almanac.html">Almanac 2021</a></p>
               <p><a href="ypg.html">Young People's Guild (Y . P . G .)</a></p>
               <p><a href="yaf.html">Young Adults Fellowship (Y . A . F .)</a></p>
               <p><a href="announce.html">Announcement</a></p>
-              <p><a href="gallery.html">Gallery</a></p>
+              <p><a href="media.html#gallery">Gallery</a></p>
             </div>
-            <!-- Socail Media Links -->
-            <div class="col-md-4 social">
-              <h5 class="text-white my-3">Follow Us</h5>
-              <div class="follow text-white">
-                <a class="pr-3" href="https://m.facebook.com/groups/771060973302097/?ref=share" target="_blank"><i style="background-color: #4267B2; border-radius: 50%" class="fab fa-facebook-f fa-lg p-3"></i></a>
-                <a class="pr-3" href="https://chat.whatsapp.com/JDtta285j3ZJ2BrZIu3hH1" target="_blank"><i style="background-color: #128c7e; border-radius: 50%" class="fab fa-whatsapp fa-lg p-3"></i></a>
-              </div>
+            <!-- Social Media Links -->
+            <div class="col-md-4">
+              <h5 class="my-3">Follow Us</h5>
+              <a class="pr-3" href="https://m.facebook.com/groups/771060973302097/?ref=share" target="_blank"><i style="background-color: #4267B2; border-radius: 50%" class="fab fa-facebook-f fa-lg p-3"></i></a>
+              <a class="pr-3" href="https://chat.whatsapp.com/JDtta285j3ZJ2BrZIu3hH1" target="_blank"><i style="background-color: #128c7e; border-radius: 50%" class="fab fa-whatsapp fa-lg p-3"></i></a>
             </div>
           </div>
           <!-- Copyright -->
-          <div class="copyright border-top mt-4 pt-5 ">
-            <p>&copy; 2020 PCG- Official Website of Presbyterian Church of Ghana, Love Congregation, All rights reserved</p>
-            <p>Designed by <a class="text-white" href="team.html"><i class="far fa-heart"></i> Love Media Team</a> - Powered By <a class="text-white" href="#">WebHive Agency</a></p>
+          <div class="copyright border-top mt-4 pt-5">
+            <p>&copy; 2020 PCG- Official Website of P.C.G. Love Congregation, All rights reserved</p>
+            <p>Designed by <a class="text-danger" href="team.html"><i class="far fa-heart"></i> Love Media Team</a> - Powered By <a class="text-danger" href="#">WebHive Agency</a></p>
           </div>
         </div>
       </footer>
