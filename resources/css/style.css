@@ -22,6 +22,12 @@ thead {
   color: #ed1c24;
   font-weight: bold;
 }
+.scroll {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
 
 
 /** Media Queries Mobile Viewport 380px and lower**/
