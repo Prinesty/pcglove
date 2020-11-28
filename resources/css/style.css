@@ -51,6 +51,9 @@ thead {
   .navbar-brand img {
     width: 130px;
   }
+  .group .navbar-brand img {
+    width: 40px;
+  }
   .mobile-almanac {
     font-size: 0.7rem;
   }
@@ -63,7 +66,7 @@ thead {
   }
   footer {
      font-size: 0.8rem;
-  }``
+  }
 }
 
 /** Media Queries Tablet and below**/
