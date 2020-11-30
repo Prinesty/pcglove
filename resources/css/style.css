@@ -73,6 +73,14 @@ thead {
   footer {
      font-size: 0.8rem;
   }
+  /** flip card **/
+  .card-flip:hover .card-front {
+    transform: none;
+  }
+
+  .card-flip:hover .card-back {
+    transform: none;
+  }
 }
 
 /** Media Queries Tablet and below**/
@@ -208,7 +216,6 @@ footer a:hover {
     width: 100%;
     height: 100%;
     margin: 0;
-    display: flex;
   }
 
   .card-front {
