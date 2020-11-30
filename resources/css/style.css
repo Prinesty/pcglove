@@ -76,12 +76,6 @@ thead {
 }
 
 /** Media Queries Tablet and below**/
-@media only screen and (max-width: 768px) {
-  .clerk-info {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 992px) {
   .laptop {
     display: none;
