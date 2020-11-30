@@ -118,15 +118,13 @@ thead {
 
 /** Footer **/
 footer {
- background-color: #343a40;;
+ background-color: #000000;
  color: #ffffff;
 }
 footer a:hover {
   color: inherit;
 }
-footer .copyright {
-   font-size: 0.9rem;
-}
+
 /** HOMEPAGE ENDS **/
 
 [data-title]:hover:after {
