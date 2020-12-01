@@ -173,24 +173,6 @@ footer a:hover {
    text-decoration: none;
    color: #ed1c24;
  }
- .committee {
-   border-radius: 5px;
-   background-color: #007bff;
-   color: #ffffff;
- }
- .committee a:hover {
-   text-decoration: none;
-   color: inherit;
- }
- .committee-info {
-   display: none;
- }
- .committee a:hover .committee-info {
-   display: block;
-   background-color: #ffffff;
-   color: #000000;
-   border-radius: 5px;
- }
 
  /** SESSION **/
  .flip-card-front {
