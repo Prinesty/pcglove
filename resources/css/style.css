@@ -17,6 +17,7 @@ h4 {
 }
 h3 {
   color: #ffffff;
+  font-size: 1.4rem;
 }
 thead {
   color: #ed1c24;
@@ -62,6 +63,12 @@ thead {
   .carousel-inner h1 {
     font-size: 1.4rem;
   }
+  .index-text h5 {
+    font-size: 1.1rem;
+  }
+  .index-text p {
+    font-size: 0.9rem;
+  }
 }
 
 /** Media Queries Mobile Viewport **/
@@ -73,10 +80,10 @@ thead {
     font-size: 1.9rem;
   }
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   h4 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .navbar-brand img {
     width: 130px;
@@ -113,10 +120,6 @@ thead {
 @media only screen and (min-width: 992px) {
   .navigation ul li {
     text-transform: uppercase;
-  }
-
-  .media-section h3 {
-    font-size: 1.3rem;
   }
 
   .tablet {
