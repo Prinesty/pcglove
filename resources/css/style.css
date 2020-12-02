@@ -2,6 +2,9 @@
 body {
   font-size: 16px;
   font-family: 'Oxygen', sans-serif;
+  background-image: url("../images/.png");
+}
+.cover {
   background-color: #f8f9fa;
 }
 a {
@@ -121,7 +124,6 @@ thead {
   .navigation ul li {
     text-transform: uppercase;
   }
-
   .tablet {
     display: none;
   }
@@ -200,21 +202,17 @@ footer a:hover {
     height: 100%;
     margin: 0;
   }
-
   .card-front {
     transform: rotateY(0deg);
   }
-
   .card-back {
     transform: rotateY(180deg);
     position: absolute;
     top: 0;
   }
-
   .card-flip:hover .card-front {
     transform: rotateY(-180deg);
   }
-
   .card-flip:hover .card-back {
     transform: rotateY(0deg);
   }

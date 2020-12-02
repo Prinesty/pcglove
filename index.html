@@ -66,11 +66,11 @@
       </nav>
 
       <!-- Main Content-->
-      <div class="container">
 
-        <!-- Slideshow & Special Features-->
-        <div class="mb-5 mt-3">
-          <div class="row">
+      <!-- Slideshow & Special Features-->
+      <div class="cover">
+        <div class="container">
+          <div class="row mt-1">
             <!--Slideshow -->
             <div class="col-md-9 mb-4 slideshow">
               <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
@@ -117,7 +117,7 @@
             </div>
             <!-- Special Features -->
             <div class="col-md-3 special">
-              <h4>Special Features</h4>
+              <h4 class="pt-3">Special Features</h4>
               <!-- Almanac -->
               <div class="py-3">
                 <a href="almanac.html"><button type="button" name="button" class="btn btn-dark btn-block">Almanac 2021</button></a>
@@ -177,52 +177,54 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Clerk's Diaries & Upcoming Events -->
-        <div class="my-5">
+      <!-- Clerk's Diaries & Upcoming Events -->
+      <div class="cover">
+        <div class="container my-2">
           <div class="row">
             <!-- Clerk's Diaries -->
-            <div class="col-md-9 index-text">
+            <div class="col-md-9 index-text my-4">
               <h4>Clerk's Diary</h4>
               <!-- Clerk News 1-->
               <div class="d-flex align-items-start py-4 border-bottom">
-                <div class="col-md-6">
+                <div class="col-sm-5">
                   <img class="img-fluid" src="resources/images/akwaaba.jpg" alt="clerk-image-1">
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-7">
                   <h5>Akwaaba Rev. Dr. Joseph Kofi Aidoo</h5>
                   <p class="text-muted"><i class="fas fa-calendar-day"></i> 22nd November, 2020</p>
                   <p class="laptop">The Love Congregation welcomes Reverend Dr. Kofi Aidoo as the new minister ...</p>
-                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news0">Read more</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news1">Read more</button>
                 </div>
               </div>
               <!-- Clerk News 2 -->
               <div class="d-flex align-items-start py-4 border-bottom">
-                <div class="col-md-6">
+                <div class="col-sm-5">
                   <img class="img-fluid" src="resources/images/program.jpg" alt="clerk-image-2">
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-7">
                   <h5>Programmes for 2021</h5>
                   <p class="text-muted"><i class="fas fa-calendar-day"></i> 24th December, 2020</p>
                   <p class="laptop">The Session Clerk admonishes all generational groups and committees to submit their programmes for ...</p>
-                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news1">Read more</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news2">Read more</button>
                 </div>
               </div>
               <!-- Clerk News 3 -->
-              <div class="d-flex align-items-start py-4 mb-4">
-                <div class="col-md-6">
-                  <img class="img-fluid" src="resources/images/induction.jpg" alt="clerk-image-2">
+              <div class="d-flex align-items-start py-4">
+                <div class="col-sm-5">
+                  <img class="img-fluid" src="resources/images/induction.jpg" alt="clerk-image-3">
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-7">
                   <h5>Induction of the New Session</h5>
                   <p class="text-muted"><i class="fas fa-calendar-day"></i> 10th January, 2021</p>
                   <p class="laptop">The Induction Service of the new Session will be held at the Love Congreagtion Auditorium ...</p>
-                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news2">Read more</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#scrollable-news3">Read more</button>
                 </div>
               </div>
             </div>
             <!-- Clerk Modals -->
-            <div class="modal" id="scrollable-news0" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+            <div class="modal" id="scrollable-news1" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -245,7 +247,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal" id="scrollable-news1" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+            <div class="modal" id="scrollable-news2" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -268,7 +270,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal" id="scrollable-news2" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+            <div class="modal" id="scrollable-news3" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -293,162 +295,163 @@
               </div>
             </div>
 
-            <!-- Upcoming Events -->
-            <div class="event col-md-3 index-text">
+              <!-- Upcoming Events -->
+            <div class="event col-md-3 index-text my-4">
               <h4>Upcoming Events</h4>
               <!-- Event 1 -->
               <div class="pt-4">
-                <a href="announce.html#news1"><img class="img-fluid" src="resources/images/carol1.jpg" alt="event-image-1">
-                <h5 class="pt-2">Carol Service <button type="button" name="button" class="float-right btn btn-sm btn-link"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20201220T070000Z%2F20201220T110000Z&details=An%20annual%20Carol%20Service%20with%20songs%20and%209%20lessons&location=New%20Legon%20Oko%20Presby%20Church&text=Carol%20Service%202020"
-                   target="_blank">Add to Calendar</a></button></h5>
-                 </a>
-                <small class="text-muted"><i class="fas fa-calendar-day"></i> 20th December, 2020</small>
+                <img class="img-fluid" src="resources/images/carol1.jpg" alt="event-image-1">
+                <h5 class="pt-2">Carol Service <button type="button" name="button" class="float-right btn btn-sm btn-link"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20201220T070000Z%2F20201220T110000Z&details=An%20annual%20Carol%20Service%20with%20songs%20and%209%20lessons&location=New%20Legon%20Oko%20Presby%20Church&text=Carol%20Service%202020" target="_blank">Add to Calendar</a></button></h5>
+                <p class="text-muted"><i class="fas fa-calendar-day"></i> 20th December, 2020</p>
               </div>
               <!-- Event 2 -->
               <div class="pt-4">
-                <a href="announce.html#news2"><img class="img-fluid" src="resources/images/shida.jpg" alt="event-image-2">
-                <h5 class="pt-2">Shidaa 2021 <button type="button" name="button" class="float-right btn btn-sm btn-link"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210117T050000Z%2F20210117T080000Z&details=The%20Fifth%20Edition%20of%20Shidaa%202021.%20A%20night%20of%20praise%20and%20thanksgiving&location=New%20Legon%20Oko%20Presby%20Church&text=Shidaa%202021%20%285th%20Edition%29"
-                   target="_blank">Add to Calendar</a></button></h5>
-                </a>
-                <small class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021</small>
+                <img class="img-fluid" src="resources/images/shida.jpg" alt="event-image-2">
+                <h5 class="pt-2">Shidaa 2021 <button type="button" name="button" class="float-right btn btn-sm btn-link"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210117T050000Z%2F20210117T080000Z&details=The%20Fifth%20Edition%20of%20Shidaa%202021.%20A%20night%20of%20praise%20and%20thanksgiving&location=New%20Legon%20Oko%20Presby%20Church&text=Shidaa%202021%20%285th%20Edition%29" target="_blank">Add to Calendar</a></button></h5>
+                <p class="text-muted"><i class="fas fa-calendar-day"></i> 17th January, 2021</p>
               </div>
               <!-- Event 3 -->
               <div class="pt-4">
-                <a href="announce.html#news3"><img class="img-fluid" src="resources/images/inauguration.jpg" alt="event-image-3">
-                <h5 class="pt-2">Inauguration Service</h5></a>
-                <small class="text-muted"><i class="fas fa-calendar-day"></i> To be commuicated...</small>
+                <img class="img-fluid" src="resources/images/inauguration.jpg" alt="event-image-3">
+                <h5 class="pt-2">Inauguration Service</h5>
+                <p class="text-muted"><i class="fas fa-calendar-day"></i> To be communicated...</p>
               </div>
-              <!-- Event 4 (See more) -->
-              <div class="pt-4 text-center">
-                <a href="announce.html#news"><button type="button" name="button" class="btn btn-block btn-outline-primary btn-sm">View more events</button></a>
+              <!-- (view more) -->
+              <div class="pt-4">
+                <p><a class="btn btn-sm btn-block btn-primary" data-toggle="collapse" href="#collapseLoadMore" aria-expanded="false" aria-controls="collapseLoadMore">Load More</a></p>
+                <div class="collapse" id="collapseLoadMore">
+                  <div class="card card-body">
+                    <h6>No events available</h6>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Inspiration -->
-        <div class="py-4 border-top">
-          <h4>Inspiration</h4>
-          <div class="row">
-            <!-- Minister's Letters -->
-            <div class="col-md-4 py-3">
-              <div class="card">
-                <a href="#!" data-toggle="modal" data-target=".letter-modal-lg">
-                  <img class="card-img" src="resources/images/letter.jpg" alt="Image for Minister's Letters">
-                  <div class="card-img-overlay text-white">
-                    <h5>Minister's Letters</h5>
+      <!-- Inspiration -->
+      <div class="cover">
+        <div class="container my-2">
+          <h4 class="py-4">Inspiration</h4>
+            <div class="row">
+              <!-- Minister's Letters -->
+              <div class="col-md-4 py-3">
+                <div class="card">
+                  <a href="#!" data-toggle="modal" data-target=".letter-modal-lg">
+                    <img class="card-img img-fluid" src="resources/images/letter.jpg" alt="Image for Minister's Letters">
+                    <div class="card-img-overlay text-white">
+                      <h5>Minister's Letters</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Prayer Bulletin -->
+              <div class="col-md-4 py-3">
+                <div class="card">
+                  <a href="#!" data-toggle="modal" data-target=".prayer-modal-lg">
+                    <img class="card-img img-fluid" src="resources/images/pray.jpg" alt="image of praying-hands">
+                    <div class="card-img-overlay text-white">
+                      <h5>Prayer Bulletin</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Scripture Reading -->
+              <div class="col-md-4 py-3">
+                <div class="card">
+                  <a href="#!" data-toggle="modal" data-target=".verse-modal-lg">
+                    <img class="card-img img-fluid" src="resources/images/verse.jpg" alt="image of an open bible">
+                    <div class="card-img-overlay text-white">
+                      <h5>Scripture</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          <!-- Three Inspiration Modals -->
+          <div class="inspiration-modals">
+            <!-- Message from the Minister -->
+            <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myLetter">December Declaration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </a>
+                  <div class="modal-body text-center my-4">
+                    <div class="container">
+                      <p>
+                        <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
+                          December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
+                        <h6>SATISFY YOU WITH HIS GOODNESS</h6>
+                        <h6>SATISFY YOU WITH HIS DIVINE PROVISION</h6>
+                        <h6>SATISFY YOU WITH HEALING AND GOOD HEALTH</h6>
+                        <h6>SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE</h6>
+                        <h6>REFRESH YOUR SOUL WITH JOY</h6>
+                        <h6>REFRESH YOUR SOUL WITH PEACE</h6>
+                        <h6>REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS</h6>
+                        MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
+                        STAY BLESSED IN JESUS' NAME <br><br>
+                        AMEN <br><br>
+                        (You can use these Declarations as Prayer Points during your personal prayer time) <br>
+                         <h6>Rev Dr Joseph Kofi Aidoo</h6>
+                       </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Prayer Bulletin -->
-            <div class="col-md-4 py-3">
-              <div class="card">
-                <a href="#!" data-toggle="modal" data-target=".prayer-modal-lg">
-                  <img class="card-img" src="resources/images/pray.jpg" alt="image of praying-hands">
-                  <div class="card-img-overlay text-white">
-                    <h5>Prayer Bulletin</h5>
+            <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </a>
-              </div>
-            </div>
-            <!-- Scripture Reading -->
-            <div class="col-md-4 py-3">
-              <div class="card">
-                <a href="#!" data-toggle="modal" data-target=".verse-modal-lg">
-                  <img class="card-img" src="resources/images/verse.jpg" alt="image of an open bible">
-                  <div class="card-img-overlay text-white">
-                    <h5>Scripture</h5>
+                  <div class="modal-body text-center my-4">
+                    <div class="container">
+                      <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
+                    </div>
                   </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Three Inspiration Modals -->
-        <div class="inspiration-modals">
-          <!-- Message from the Minister -->
-          <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="myLetter">December Declaration</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center my-4">
-                  <div class="container">
-                    <p>
-                      <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
-                        December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
-                      - SATISFY YOU WITH HIS GOODNESS <br> <br>
-                      - SATISFY YOU WITH HIS DIVINE PROVISION <br> <br>
-                      - SATISFY YOU WITH HEALING AND GOOD HEALTH <br> <br>
-                      - SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE <br> <br>
-                      - REFRESH YOUR SOUL WITH JOY <br> <br>
-                      - REFRESH YOUR SOUL WITH PEACE <br> <br>
-                      - REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS <br> <br>
-                      MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
-                      STAY BLESSED IN JESUS' NAME <br> <br>
-                      AMEN <br> <br>
-                      (You can use these Declarations as Prayer Points during your personal prayer time) <br>
-
-                       <h6>Rev Dr Joseph Kofi Aidoo</h6>
-                     </p>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                   </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Prayer Bulletin -->
-          <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center my-4">
-                  <div class="container">
-                    <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
+            <!-- Verse of the day -->
+            <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myVerse">Verse of the Month</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Verse of the day -->
-          <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="myVerse">Verse of the Month</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center my-4">
-                  <div class="container">
-                    <p><h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5></p>
-                    <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
+                  <div class="modal-body text-center my-4">
+                    <div class="container">
+                      <p><h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5></p>
+                      <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
+                    </div>
                   </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
       <!-- Footer -->
