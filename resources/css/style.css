@@ -71,6 +71,10 @@ thead {
   .index-text p {
     font-size: 0.9rem;
   }
+
+  .register iframe {
+    width: 360px;
+  }
 }
 
 /** Media Queries Mobile Viewport **/
@@ -105,6 +109,9 @@ thead {
   }
   footer {
      font-size: 0.8rem;
+  }
+  .register iframe {
+    width: 375px;
   }
 }
 
