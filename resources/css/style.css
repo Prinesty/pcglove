@@ -63,15 +63,14 @@ thead {
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
   .carousel-inner h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
-  .index-text h5 {
+  .event h5 {
     font-size: 1.1rem;
   }
-  .index-text p {
+  .event p {
     font-size: 0.9rem;
   }
-
   .register iframe {
     width: 295px;
   }
@@ -127,7 +126,7 @@ thead {
 
 /** Media Queries Laptop View **/
 @media only screen and (min-width: 992px) {
-  .navigation ul li {
+  .main-menu ul li {
     text-transform: uppercase;
   }
   .tablet {
@@ -135,24 +134,22 @@ thead {
   }
 }
 
-/** HOMEPAGE **/
 /** Navigation Styling **/
 .navigation {
  font-family: 'Raleway', sans-serif;
 }
-.navigation a:hover {
+.main-menu a:hover {
  text-decoration-line: none;
  color: #dc3545;
 }
-.navigation .active {
+.main-menu .active {
   color: #dc3545;
 }
+
+/** Main Slideshow **/
 .carousel-caption a {
   text-decoration: none;
   color: inherit;
-}
-.special a:hover {
-  text-decoration: none;
 }
 .event a:hover {
   text-decoration: none;
@@ -203,7 +200,7 @@ footer a:hover {
   /** flip card **/
 .card-flip > div {
     backface-visibility: hidden;
-    transition: transform 600ms ease-in 200ms;
+    transition: transform 400ms ease-in 200ms;
     width: 100%;
     height: 100%;
     margin: 0;
