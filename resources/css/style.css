@@ -151,9 +151,6 @@ thead {
   text-decoration: none;
   color: inherit;
 }
-.event a:hover {
-  text-decoration: none;
-}
 
 /** Footer **/
 footer {
