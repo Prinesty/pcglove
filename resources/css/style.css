@@ -59,9 +59,7 @@ thead {
   color: #dc3545;
   font-weight: bold;
 }
-.mobile-almanac {
-  font-family: 'Raleway', sans-serif;
-}
+
 
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
