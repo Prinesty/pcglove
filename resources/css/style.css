@@ -59,7 +59,9 @@ thead {
   color: #dc3545;
   font-weight: bold;
 }
-
+.heading {
+  text-align: center;
+}
 
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
@@ -101,12 +103,9 @@ thead {
     font-size: 0.7rem;
   }
   .mobile-almanac h5 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
-  .heading {
-    text-align: center;
-    font-weight: bold;
-  }
+
   footer {
      font-size: 0.8rem;
   }
