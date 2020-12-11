@@ -152,6 +152,12 @@ thead {
   color: inherit;
 }
 
+/** Upcoming Events **/
+.upcoming a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /** Footer **/
 footer {
  background-color: #000000;
