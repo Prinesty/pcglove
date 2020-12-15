@@ -112,6 +112,12 @@ thead {
   .register iframe {
     width: 400px;
   }
+  .flip-card-desc h5 {
+    font-size: 1rem;
+  }
+  .flip-card-desc h6 {
+    font-size: 0.9rem;
+  }
 }
 
 /** Media Queries Tablet and below**/
