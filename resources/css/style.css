@@ -63,6 +63,10 @@ thead {
   text-align: center;
 }
 
+.carousel-caption h1 {
+  text-shadow: 5px 5px 10px gray;
+}
+
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
   .carousel-inner h1 {
