@@ -63,14 +63,14 @@ thead {
   text-align: center;
 }
 
-.carousel-caption h1 {
-  text-shadow: 5px 5px 10px gray;
+.carousel-inner h1 {
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
   .carousel-inner h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .event h5 {
     font-size: 1.1rem;
