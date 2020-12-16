@@ -63,10 +63,6 @@ thead {
   text-align: center;
 }
 
-.carousel-inner h1 {
-  text-shadow: 0 1px 0 rgba(0,0,0,.1);
-}
-
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
   .carousel-inner h1 {
@@ -108,10 +104,6 @@ thead {
   }
   .mobile-almanac h5 {
     font-size: 0.7rem;
-  }
-
-  footer {
-     font-size: 0.8rem;
   }
   .register iframe {
     width: 400px;
