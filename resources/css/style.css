@@ -14,13 +14,23 @@ h1, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
-h4 {
-  color: #dc3545;
-}
 h3 {
   color: #ffffff;
   font-size: 1.4rem;
 }
+h4 {
+    border-bottom: 2px solid #eee;
+}
+
+h4:after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #f70d28;
+    display: block;
+    position: relative;
+    bottom: -2px;
+  }
 thead {
   color: #ed1c24;
   font-weight: bold;

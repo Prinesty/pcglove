@@ -78,7 +78,6 @@
                   <li data-target="#carouselCaptions" data-slide-to="3"></li>
                   <li data-target="#carouselCaptions" data-slide-to="4"></li>
                   <li data-target="#carouselCaptions" data-slide-to="5"></li>
-                  <li data-target="#carouselCaptions" data-slide-to="6"></li>
                 </ol>
                 <!-- Slideshow Images with Captions -->
                 <div class="carousel-inner" role="listbox">
@@ -132,16 +131,6 @@
                       <p>
                     </div>
                   </div>
-                  <!-- Slide Image 6 -->
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" alt="First slide [900x600]" src="resources/images/wf.jpg">
-                    <div class="carousel-caption">
-                      <h1><a href="#!">The Evergreen Women's Fellowship</a></h1>
-                      <p class="laptop">
-                        A section of The Women's Fellowship after service
-                      <p>
-                    </div>
-                  </div>
                 </div>
                 <!-- Slideshow Controls -->
                 <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
@@ -184,11 +173,11 @@
                         <div class="row text-white">
                           <div class="col-md-6 bg-primary">
                             <h5>Active Cases</h5>
-                            <h1>894</h1>
+                            <h1>1011</h1>
                           </div>
                           <div class="col-md-6 bg-success">
                             <h5>Confirmed Cases</h5>
-                            <h1>52,738</h1>
+                            <h1>53,386</h1>
                           </div>
                           <div class="col-md-6 bg-warning">
                             <h5>New Cases</h5>
@@ -196,15 +185,15 @@
                           </div>
                           <div class="col-md-6 bg-danger">
                             <h5>Deaths</h5>
-                            <h1>326</h1>
+                            <h1>327</h1>
                           </div>
                           <div class="col-md-12 bg-secondary">
                             <h5>Recoveries</h5>
-                            <h1>51,518</h1>
+                            <h1>52,048</h1>
                           </div>
                         </div>
                         <p class="mt-2">
-                          Last Updated: Friday, 11th December, 2020; 23:59
+                          Last Updated: Thursday, 17th December, 2020; 23:59
                         </p>
                         <p class="small my-2">
                           Source: <a href="https://ghanahealthservice.org/covid19/" target="_blank">Ministry of Health, Ghana</a>
@@ -221,7 +210,7 @@
           </div>
         </div>
       </div>
-      <!-- Clerk's Diaries & Upcoming Events -->
+      <!-- Clerk's Diaries, Inspiration & Upcoming Events -->
       <div class="cover">
         <div class="container my-2">
           <div class="row">
@@ -283,7 +272,7 @@
                 </div>
               </div>
               <!-- Clerk News 4-->
-              <div class="d-flex align-items-start py-4 border-bottom">
+              <div class="d-flex align-items-start py-4 mb-5">
                 <div class="col-md-5">
                   <img class="img-fluid" src="resources/images/akwaaba.jpg" alt="clerk-image-1">
                 </div>
@@ -300,8 +289,44 @@
                   </button>
                 </div>
               </div>
-
-              <!-- (Articles) -->
+              <!--Inspiration-->
+              <h4>Inspiration</h4>
+              <div class="row mb-5">
+                <!-- Minister's Letters -->
+                <div class="col-md-4 py-3">
+                  <div class="card">
+                    <a href="#!" data-toggle="modal" data-target=".letter-modal-lg">
+                      <img class="card-img img-fluid" src="resources/images/letter.jpg" alt="Image for Minister's Letters">
+                      <div class="card-img-overlay text-white">
+                        <h5>Minister's Letters</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Prayer Bulletin -->
+                <div class="col-md-4 py-3">
+                  <div class="card">
+                    <a href="#!" data-toggle="modal" data-target=".prayer-modal-lg">
+                      <img class="card-img img-fluid" src="resources/images/pray.jpg" alt="image of praying-hands">
+                      <div class="card-img-overlay text-white">
+                        <h5>Prayer Bulletin</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Scripture Reading -->
+                <div class="col-md-4 py-3">
+                  <div class="card">
+                    <a href="#!" data-toggle="modal" data-target=".verse-modal-lg">
+                      <img class="card-img img-fluid" src="resources/images/verse.jpg" alt="image of an open bible">
+                      <div class="card-img-overlay text-white">
+                        <h5>Scripture</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--Articles-->
               <h4 class="my-4">Publications/Articles</h4>
               <div>
                 <a class="btn btn-sm btn-block btn-outline-secondary" data-toggle="collapse" href="#collapseLoadMore" aria-expanded="false" aria-controls="collapseLoadMore">No Content Available</a>
@@ -311,7 +336,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <!-- Clerk Modals -->
             <div class="modal" id="scrollable-news0" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
@@ -411,156 +435,159 @@
                 </div>
               </div>
             </div>
-
+            <!-- Three Inspiration Modals -->
+            <div class="inspiration-modals">
+              <!-- Message from the Minister -->
+              <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myLetter">December Declaration</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center my-4">
+                      <div class="container">
+                        <p>
+                          <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
+                            December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
+                          <h6>SATISFY YOU WITH HIS GOODNESS</h6>
+                          <h6>SATISFY YOU WITH HIS DIVINE PROVISION</h6>
+                          <h6>SATISFY YOU WITH HEALING AND GOOD HEALTH</h6>
+                          <h6>SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE</h6>
+                          <h6>REFRESH YOUR SOUL WITH JOY</h6>
+                          <h6>REFRESH YOUR SOUL WITH PEACE</h6>
+                          <h6>REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS</h6>
+                          MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
+                          STAY BLESSED IN JESUS' NAME <br><br>
+                          AMEN <br><br>
+                          (You can use these Declarations as Prayer Points during your personal prayer time) <br>
+                           <h6>Rev Dr Joseph Kofi Aidoo</h6>
+                         </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Prayer Bulletin -->
+              <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center my-4">
+                      <div class="container">
+                        <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Verse of the day -->
+              <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myVerse">Verse of the Week</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center my-4">
+                      <div class="container">
+                        <p>
+                          <h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5>
+                        </p>
+                        <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Upcoming Events -->
             <div class="col-md-3 my-4 upcoming">
               <h4>Upcoming Events</h4>
               <!-- Event 1 -->
               <div class="py-4">
-                <img class="img-fluid" src="resources/images/carol.jpg" alt="event-image-1">
-                <h5 class="pt-2">Carol Service</h5>
-                <button type="button" name="button" class="btn btn-sm btn-secondary"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20201220T070000Z%2F20201220T110000Z&details=An%20annual%20Carol%20Service%20with%20songs%20and%209%20lessons&location=New%20Legon%20Oko%20Presby%20Church&text=Carol%20Service%202020" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
+                <img class="img-fluid mb-2" src="resources/images/carol.jpg" alt="event-image-1">
+                <p>
+                  <button class="btn btn-sm btn-outline-primary" data-toggle="collapse" href="#collapseevent1" aria-expanded="false" aria-controls="collapseevent1">Read more</button>
+                  <button type="button" name="button" class="btn btn-sm btn-danger"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20201220T070000Z%2F20201220T110000Z&details=An%20annual%20Carol%20Service%20with%20songs%20and%209%20lessons&location=New%20Legon%20Oko%20Presby%20Church&text=Carol%20Service%202020" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
+                </p>
+                <div class="collapse" id="collapseevent1">
+                  <div class="card card-body font-weight-bold">
+                    <p>
+                      4th Sunday of Advent <br>
+                      Theme: Nothing is Impossible with GOD <br>
+                      Preacher: Rev. Dr. J.K. Aidoo
+                    </p>
+                  </div>
+                </div>
               </div>
               <!-- Event 2 -->
               <div class="py-4">
-                <img class="img-fluid" src="resources/images/31st.jpg" alt="event-image-3">
-                <h5 class="pt-2">Watch Night Service</h5>
-                <button type="button" name="button" class="btn btn-sm btn-secondary"><a title="Save Event in my Calendar" href="https://www.google.com/calendar/render?action=TEMPLATE&text=31st+Watch+Night+Service&details=A+night+of+Restoration&location=New+Legon+Oko+Presby&dates=20201231T210000Z%2F20210102T010000Z" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
+                <img class="img-fluid mb-2" src="resources/images/31st.jpg" alt="event-image-2">
+                <p>
+                  <button class="btn btn-sm btn-outline-primary" data-toggle="collapse" href="#collapseevent2" aria-expanded="false" aria-controls="collapseevent2">Read more</button>
+                  <button type="button" name="button" class="btn btn-sm btn-danger"><a title="Save Event in my Calendar" href="https://www.google.com/calendar/render?action=TEMPLATE&text=31st+Watch+Night+Service&details=A+night+of+Restoration&location=New+Legon+Oko+Presby&dates=20201231T210000Z%2F20210102T010000Z" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
+                </p>
+                <div class="collapse" id="collapseevent2">
+                  <div class="card card-body font-weight-bold">
+                    <p>
+                      Watch Night Service <br>
+                      Theme: Pressing on to the Goal <br>
+                      Preacher: Rev. Dr. J.K. Aidoo
+                    </p>
+                  </div>
+                </div>
               </div>
               <!-- Event 3 -->
               <div class="py-4">
-                <img class="img-fluid" src="resources/images/wedding.JPG" alt="event-image-2">
-                <h5 class="pt-2">Wedding Ceremony</h5>
-                <button type="button" name="button" class="btn btn-sm btn-secondary"><a title="Save Event in my Calendar" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony&details=Lucas+Kwashie+and+Regina+Kumi&location=New+Legon+Oko+Presby&dates=20210109T110000Z%2Fundefined" target="_blank"><i class="fas fa-calendar-day"></i> Save the Date</a></button>
+                <img class="img-fluid mb-2" src="resources/images/wedding.JPG" alt="event-image-3">
+                <p>
+                  <button class="btn btn-sm btn-outline-primary" data-toggle="collapse" href="#collapseevent3" aria-expanded="false" aria-controls="collapseevent3">Read more</button>
+                  <button type="button" name="button" class="btn btn-sm btn-danger"><a title="Save Event in my Calendar" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony&details=Lucas+Kwashie+and+Regina+Kumi&location=New+Legon+Oko+Presby&dates=20210109T110000Z%2Fundefined" target="_blank"><i class="fas fa-calendar-day"></i> Save the Date</a></button>
+                </p>
+                <div class="collapse" id="collapseevent3">
+                  <div class="card card-body font-weight-bold">
+                    <p>
+                      Wedding Ceremony<br><br>
+                      The Kwashie and Kumi families cordially invites you to celebrate the union of
+                      Lucas Kwashie and Regina Kumi<br><br>
+                      #pcglovecongregation #loveypg
+                    </p>
+                  </div>
+                </div>
               </div>
               <!-- Event 4 -->
               <div class="py-4">
-                <img class="img-fluid" src="resources/images/shidaa.jpg" alt="event-image-4">
-                <h5 class="pt-2">Shidaa 2021</h5>
-                <button type="button" name="button" class="btn btn-sm btn-secondary"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210117T050000Z%2F20210117T080000Z&details=The%20Fifth%20Edition%20of%20Shidaa%202021.%20A%20night%20of%20praise%20and%20thanksgiving&location=New%20Legon%20Oko%20Presby%20Church&text=Shidaa%202021%20%285th%20Edition%29" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Inspiration -->
-      <div class="cover">
-        <div class="container my-2">
-          <h4 class="py-4">Inspiration</h4>
-            <div class="row">
-              <!-- Minister's Letters -->
-              <div class="col-md-4 py-3">
-                <div class="card">
-                  <a href="#!" data-toggle="modal" data-target=".letter-modal-lg">
-                    <img class="card-img img-fluid" src="resources/images/letter.jpg" alt="Image for Minister's Letters">
-                    <div class="card-img-overlay text-white">
-                      <h5>Minister's Letters</h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <!-- Prayer Bulletin -->
-              <div class="col-md-4 py-3">
-                <div class="card">
-                  <a href="#!" data-toggle="modal" data-target=".prayer-modal-lg">
-                    <img class="card-img img-fluid" src="resources/images/pray.jpg" alt="image of praying-hands">
-                    <div class="card-img-overlay text-white">
-                      <h5>Prayer Bulletin</h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <!-- Scripture Reading -->
-              <div class="col-md-4 py-3">
-                <div class="card">
-                  <a href="#!" data-toggle="modal" data-target=".verse-modal-lg">
-                    <img class="card-img img-fluid" src="resources/images/verse.jpg" alt="image of an open bible">
-                    <div class="card-img-overlay text-white">
-                      <h5>Scripture</h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          <!-- Three Inspiration Modals -->
-          <div class="inspiration-modals">
-            <!-- Message from the Minister -->
-            <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="myLetter">December Declaration</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body text-center my-4">
-                    <div class="container">
-                      <p>
-                        <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
-                          December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
-                        <h6>SATISFY YOU WITH HIS GOODNESS</h6>
-                        <h6>SATISFY YOU WITH HIS DIVINE PROVISION</h6>
-                        <h6>SATISFY YOU WITH HEALING AND GOOD HEALTH</h6>
-                        <h6>SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE</h6>
-                        <h6>REFRESH YOUR SOUL WITH JOY</h6>
-                        <h6>REFRESH YOUR SOUL WITH PEACE</h6>
-                        <h6>REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS</h6>
-                        MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
-                        STAY BLESSED IN JESUS' NAME <br><br>
-                        AMEN <br><br>
-                        (You can use these Declarations as Prayer Points during your personal prayer time) <br>
-                         <h6>Rev Dr Joseph Kofi Aidoo</h6>
-                       </p>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Prayer Bulletin -->
-            <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body text-center my-4">
-                    <div class="container">
-                      <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Verse of the day -->
-            <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="myVerse">Verse of the Week</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body text-center my-4">
-                    <div class="container">
-                      <p>
-                        <h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5>
-                      </p>
-                      <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                <img class="img-fluid mb-2" src="resources/images/shidaa.jpg" alt="event-image-4">
+                <p>
+                  <button class="btn btn-sm btn-outline-primary" data-toggle="collapse" href="#collapseevent4" aria-expanded="false" aria-controls="collapseevent4">Read more</button>
+                  <button type="button" name="button" class="btn btn-sm btn-danger"><a title="Save Event in my Calendar" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210117T050000Z%2F20210117T080000Z&details=The%20Fifth%20Edition%20of%20Shidaa%202021.%20A%20night%20of%20praise%20and%20thanksgiving&location=New%20Legon%20Oko%20Presby%20Church&text=Shidaa%202021%20%285th%20Edition%29" target="_blank"><i class="fas fa-calendar-day"></i> Save Event</a></button>
+                </p>
+                <div class="collapse" id="collapseevent4">
+                  <div class="card card-body font-weight-bold">
+                    <p>
+                      5th Edition of Shidaa<br><br>
+                      The YPG is organizing the Shidaa 2021 dubbed "This far by grace"<br><br>
+                      #pcglovecongregation #loveypg
+                    </p>
                   </div>
                 </div>
               </div>
