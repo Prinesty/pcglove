@@ -72,10 +72,12 @@ thead {
 .heading {
   text-align: center;
 }
-.heading a {
+.heading a,
+.titles a {
   color: inherit;
   text-decoration: none;
 }
+
 
 /** Media Queries Mobile Viewport 380px and lower**/
 @media only screen and (max-width: 380px) {
