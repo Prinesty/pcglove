@@ -74,7 +74,8 @@ thead {
 }
 .heading a,
 .titles a {
-  text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 
