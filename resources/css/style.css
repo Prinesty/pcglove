@@ -49,17 +49,16 @@ thead {
 [data-title]:after {
    content: attr(data-title);
    position: absolute;
-   top: 2rem;
-   left: 20%;
-   padding: 5px;
-   color: #222;
+   top: -2rem;
+   right: 20%;
+   padding: 10px;
+   color: gray;
    white-space: nowrap;
    border-radius: 5px;
    box-shadow: 0px 0px 4px #222;
    opacity: 0;
    z-index: 99999;
    font-size: 14px;
-   font-weight: bold;
    visibility: hidden;
 }
 [data-title] {
