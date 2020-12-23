@@ -209,11 +209,11 @@
           </div>
         </div>
       </div>
-      <!-- Clerk's Diaries, Inspiration & Upcoming Events -->
+      <!-- Main Body -->
       <div class="cover">
         <div class="container my-2">
+          <!-- Clerk's Diaries/Inspiration/Articles/What's New -->
           <div class="row">
-            <!-- Clerk's Diaries -->
             <div class="col-md-9 my-4 event">
               <div class="titles" id="diaries">
                 <h4><a href="index.html#diaries">Clerk's Diary</a></h4>
@@ -324,6 +324,7 @@
               </div>
               <!--Articles & What's New-->
               <div class="row">
+                <!-- Articles -->
                 <div class="col-md-6 mb-4">
                   <div class="titles" id="articles">
                     <h4 class="my-4"><a href="index.html#articles">Publications/Articles</a></h4>
@@ -337,6 +338,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- What's New-->
                 <div class="col-md-6">
                   <div class="titles" id="whats_new">
                     <h4 class="my-4"><a href="index.html#whats_new">What's New</a></h4>
@@ -356,120 +358,33 @@
                     <button class="btn btn-sm btn-primary" data-toggle="collapse" href="#whatmore" aria-expanded="false" aria-controls="whatmore">View More</button>
                     <div class="collapse" id="whatmore">
                       <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-                      <div class="toast-body">
-                        <h5 class="mr-auto"><a href="media.html#sermon">Sermon (Audio)</a></h5>
-                        <small>Posted: 21/12/2020</small>
+                        <div class="toast-header">
+                          <h6 class="mr-auto"><a href="media.html#sermon">Sermon (Audio)</a></h6>
+                          <small>Posted: 21/12/2020</small>
+                        </div>
                       </div>
                     </div>
-                    </div>
                 </div>
               </div>
             </div>
-            <!-- Clerk Modals -->
-            <div class="modal" id="scrollable-news0" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalCenteredLabel">Church Committee Retreat</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                      The Session is organizing a retreat for the all the working committees of the church on Saturday,
-                      13th February 2021 at the church premises from 8am - 12noon.
-                      We urge all the <a href="cc.html"><u>working committees members</u></a> to be present for this retreat. <br> <br>
-                      God bless you
-                     </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal" id="scrollable-news1" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalCenteredLabel">Akwaaba Rev. Dr. Joseph Kofi Aidoo</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                      The Love Congregation welcomes Reverend Dr. Joseph Kofi
-                      Aidoo and his family. He is the new Minister of the
-                      Congreagtion, taking over from Rev. Mrs. Korkor Hammond. <br><br>
-                      The entire session, ministries, committees, service
-                      groups and the congregation warmly welcomes the Reverend.
-                     </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal" id="scrollable-news3" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="modalCenteredLabel">Induction of the New Session</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                      The Induction Service of the new Session will be held at
-                      the Love Congreagtion Auditorium on the 10th of January 2021. <br><br>
-                      It is a joint service, starting at 9am. The congregation
-                      should be in the official Presby attire or group attire in
-                      support of the occasion. <br><br>
-                      Information about the new session is available
-                      <a class="text-danger" href="session.html">here</a>!
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Four Inspiration Modals -->
-            <div class="inspiration-modals">
-              <!-- Message from the Minister -->
-              <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+            <div class="modals">
+              <!-- Clerk Modals -->
+              <div class="modal" id="scrollable-news0" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="myLetter">December Declaration</h5>
+                      <h5 class="modal-title" id="modalCenteredLabel">Church Committee Retreat</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body text-center my-4">
-                      <div class="container">
-                        <p>
-                          <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
-                            December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
-                          <h6>SATISFY YOU WITH HIS GOODNESS</h6>
-                          <h6>SATISFY YOU WITH HIS DIVINE PROVISION</h6>
-                          <h6>SATISFY YOU WITH HEALING AND GOOD HEALTH</h6>
-                          <h6>SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE</h6>
-                          <h6>REFRESH YOUR SOUL WITH JOY</h6>
-                          <h6>REFRESH YOUR SOUL WITH PEACE</h6>
-                          <h6>REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS</h6>
-                          MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
-                          STAY BLESSED IN JESUS' NAME <br><br>
-                          AMEN <br><br>
-                          (You can use these Declarations as Prayer Points during your personal prayer time) <br>
-                           <h6>Rev Dr Joseph Kofi Aidoo</h6>
-                         </p>
-                      </div>
+                    <div class="modal-body">
+                      <p>
+                        The Session is organizing a retreat for the all the working committees of the church on Saturday,
+                        13th February 2021 at the church premises from 8am - 12noon.
+                        We urge all the <a href="cc.html"><u>working committees members</u></a> to be present for this retreat. <br> <br>
+                        God bless you
+                       </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
@@ -477,20 +392,23 @@
                   </div>
                 </div>
               </div>
-              <!-- Prayer Bulletin -->
-              <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+              <div class="modal" id="scrollable-news1" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
+                      <h5 class="modal-title" id="modalCenteredLabel">Akwaaba Rev. Dr. Joseph Kofi Aidoo</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body text-center my-4">
-                      <div class="container">
-                        <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
-                      </div>
+                    <div class="modal-body">
+                      <p>
+                        The Love Congregation welcomes Reverend Dr. Joseph Kofi
+                        Aidoo and his family. He is the new Minister of the
+                        Congreagtion, taking over from Rev. Mrs. Korkor Hammond. <br><br>
+                        The entire session, ministries, committees, service
+                        groups and the congregation warmly welcomes the Reverend.
+                       </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
@@ -498,23 +416,25 @@
                   </div>
                 </div>
               </div>
-              <!-- Verse of the day -->
-              <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+              <div class="modal" id="scrollable-news3" tabindex="-1" role="dialog" aria-labelledby="modalScrollableLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="myVerse">Verse of the Week</h5>
+                      <h5 class="modal-title" id="modalCenteredLabel">Induction of the New Session</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body text-center my-4">
-                      <div class="container">
-                        <p>
-                          <h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5>
-                        </p>
-                        <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
-                      </div>
+                    <div class="modal-body">
+                      <p>
+                        The Induction Service of the new Session will be held at
+                        the Love Congreagtion Auditorium on the 10th of January 2021. <br><br>
+                        It is a joint service, starting at 9am. The congregation
+                        should be in the official Presby attire or group attire in
+                        support of the occasion. <br><br>
+                        Information about the new session is available
+                        <a class="text-danger" href="session.html">here</a>!
+                      </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
@@ -522,42 +442,125 @@
                   </div>
                 </div>
               </div>
-              <!-- Hymnspiration -->
-              <div class="modal fade hymn-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myHymn" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="myHymn">Hymnspiration of the Week</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
+              <div class="inspiration-modals">
+                <!-- Message from the Minister -->
+                <div class="modal fade letter-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLetter" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="myLetter">December Declaration</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-center my-4">
+                        <div class="container">
+                          <p>
+                            <h6>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h6>
+                              December is our month of Satisfaction and  Refreshing. In this month my prayer for you beloved is that, God should; <br><br>
+                            <h6>SATISFY YOU WITH HIS GOODNESS</h6>
+                            <h6>SATISFY YOU WITH HIS DIVINE PROVISION</h6>
+                            <h6>SATISFY YOU WITH HEALING AND GOOD HEALTH</h6>
+                            <h6>SATISFY YOU WITH WHATEVER YOUR HEART DESIRE IS, ACCORDING TO GOD'S PLAN FOR YOUR LIFE</h6>
+                            <h6>REFRESH YOUR SOUL WITH JOY</h6>
+                            <h6>REFRESH YOUR SOUL WITH PEACE</h6>
+                            <h6>REFRESH YOUR SOUL WITH ANYTHING YOUR SOUL YEARNS FOR IN CHRIST JESUS</h6>
+                            MAY THE GOD OF ALL GRACE KEEP AND PROTECT YOU AND YOUR FAMILY THIS MONTH. <br> <br>
+                            STAY BLESSED IN JESUS' NAME <br><br>
+                            AMEN <br><br>
+                            (You can use these Declarations as Prayer Points during your personal prayer time) <br>
+                             <h6>Rev Dr Joseph Kofi Aidoo</h6>
+                           </p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
-                    <div class="modal-body text-center my-4">
-                      <div class="container">
-                        <p>
-                          <h5>Presby Hymn Numbered 4</h5>
-                          <span class="font-italic">If God would give me thousand tongues now,<br>
-                          And thousand, thousands more than that;<br>
-                          I shall use all to praise Him always,<br>
-                          To glorify His Holy Name,<br>
-                          And shall extol Him with heart<br>
-                          And glorify His Holy Name</span><br><br>
+                  </div>
+                </div>
+                <!-- Prayer Bulletin -->
+                <div class="modal fade prayer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myPrayer" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="myPrayer">Prayer Bulletin for the Week</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-center my-4">
+                        <div class="container">
+                          <p><button type="button" name="button" class="btn btn-lg btn-secondary">No Content Available</button></p>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Verse of the day -->
+                <div class="modal fade verse-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myVerse" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="myVerse">Verse of the Week</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-center my-4">
+                        <div class="container">
+                          <p>
+                            <h5>Jeremiah 31:25 says that, _“I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5>
+                          </p>
+                          <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Hymnspiration -->
+                <div class="modal fade hymn-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myHymn" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="myHymn">Hymnspiration of the Week</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-center my-4">
+                        <div class="container">
+                          <p>
+                            <h5>Presby Hymn Numbered 4</h5>
+                            <span class="font-italic">If God would give me thousand tongues now,<br>
+                            And thousand, thousands more than that;<br>
+                            I shall use all to praise Him always,<br>
+                            To glorify His Holy Name,<br>
+                            And shall extol Him with heart<br>
+                            And glorify His Holy Name</span><br><br>
 
-                          <h5>Inspired by Psalm 145.</h5>
-                          <span>A psalm of praise of David. <br>
-                          A Time will come when all people will join together in recognizing and worshipping God. <br>
-                           Because God is full of love, he satisfies all who trust in Him. <br>
-                            Amen!</span>
-                        </p>
+                            <h5>Inspired by Psalm 145.</h5>
+                            <span>A psalm of praise of David. <br>
+                            A Time will come when all people will join together in recognizing and worshipping God. <br>
+                             Because God is full of love, he satisfies all who trust in Him. <br>
+                              Amen!</span>
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div>  
             <!-- Upcoming Events -->
             <div class="col-md-3 my-4 upcoming">
               <div class="titles" id="events">
