@@ -50,7 +50,7 @@ thead {
    content: attr(data-title);
    position: absolute;
    top: 2rem;
-   right: 20%;
+   right: 1%;
    padding: 10px;
    color: #ffffff;
    white-space: nowrap;
