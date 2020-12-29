@@ -67,12 +67,12 @@
         <div class="cover">
           <!-- Heading -->
           <div class="container heading pt-4" id="sermon">
-            <a href="media.html#sermon"><h1>Sermons & Hymns</h1></a>
+            <a href="media.html#sermon"><h1>Sermons</h1></a>
           </div>
           <div class="container media-section">
             <div class="row py-4">
               <!-- Audio Section -->
-              <div class="col-md-4 py-2">
+              <div class="col-md-6 py-2">
                 <div class="card">
                   <a href="https://soundcloud.com/p-c-g-love-congregation-oko/27th-december-sermon-praise">
                     <img class="card-img" src="resources/images/audio.jpg" alt="equalizer">
@@ -86,7 +86,7 @@
                 </div>
               </div>
               <!-- Online Streaming -->
-              <div class="col-md-4 py-2">
+              <div class="col-md-6 py-2">
                 <div class="card">
                   <a href="https://youtu.be/EAlxiRD8BIU" target="_blank">
                     <img class="card-img" src="resources/images/online.jpg" alt="online">
@@ -97,8 +97,19 @@
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <!--Hymns -->
+        <div class="cover">
+          <!-- Heading -->
+          <div class="container heading pt-4 mt-2" id="hymn">
+            <a href="media.html#hymn"><h1>Hymns</h1></a>
+          </div>
+          <div class="container">
+            <div class="row py-4">
               <!-- Hymn with Tunes -->
-              <div class="col-md-4 py-2">
+              <div class="col-md-6 py-2">
                 <div class="card">
                   <a href="hymn.html">
                     <img class="card-img" src="resources/images/piano.jpg" alt="piano">
@@ -109,12 +120,60 @@
                   </a>
                 </div>
               </div>
+              <!--Hymnspiration-->
+              <div class="col-md-6 py-2" id="hymnspiration">
+                <div class="card">
+                  <a href="media.html#hymnspiration" data-toggle="modal" data-target=".hymn-modal-lg">
+                    <img class="card-img img-fluid" src="resources/images/hymn.jpg" alt="hymnal">
+                    <div class="card-img-overlay text-white">
+                      <h3>Hymnspiration</h3>
+                      <h6 class="text-danger">Available</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Hymnspiration Modal -->
+              <div class="modal fade hymn-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myHymn" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myHymn">Hymnspiration of the Month</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center my-4">
+                      <div class="container">
+                        <p>
+                          <h5>Presby Hymn Numbered 4</h5>
+                          <span class="font-italic">If God would give me thousand tongues now,<br>
+                          And thousand, thousands more than that;<br>
+                          I shall use all to praise Him always,<br>
+                          To glorify His Holy Name,<br>
+                          And shall extol Him with heart<br>
+                          And glorify His Holy Name</span><br><br>
+
+                          <h5>Inspired by Psalm 145.</h5>
+                          <span>A psalm of praise of David. <br>
+                          A Time will come when all people will join together in recognizing and worshipping God. <br>
+                           Because God is full of love, he satisfies all who trust in Him. <br>
+                            Amen!</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
         <!-- Videos -->
         <div class="cover">
-          <div class="container heading py-4" id="videos">
+          <div class="container heading mt-2 pt-4" id="videos">
             <a href="media.html#videos"><h1>Videos</h1></a>
           </div>
           <div class="container">

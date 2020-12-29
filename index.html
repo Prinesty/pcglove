@@ -78,20 +78,27 @@
                   <li data-target="#carouselCaptions" data-slide-to="2"></li>
                   <li data-target="#carouselCaptions" data-slide-to="3"></li>
                   <li data-target="#carouselCaptions" data-slide-to="4"></li>
-                  <li data-target="#carouselCaptions" data-slide-to="5"></li>
                 </ol>
                 <!-- Slideshow Images with Captions -->
                 <div class="carousel-inner" role="listbox">
-
                   <!-- Slide Image 1 -->
                   <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid" alt="Fourth slide [900x600]" src="resources/images/ayete.jpg">
+                    <div class="carousel-caption">
+                      <h1>Minister-in-Charge and Former Clerk of G.A</h1>
+                      <p class="laptop">Rev. Dr. Joesph Kofi Aidoo and Rev. Dr. Samuel Ayete-Nyampong seated during Carol Service</p>
+                    </div>
+                  </div>
+
+                  <!-- Slide Image 2 -->
+                  <div class="carousel-item">
                     <img class="d-block w-100 img-fluid" alt="Fifth slide [900x600]" src="resources/images/visit.jpg">
                     <div class="carousel-caption text-left">
                       <h1>YAF visits the Aged</h1>
                       <a class="btn btn-sm btn-danger" href="yafstory.html">Read story</a></p>
                     </div>
                   </div>
-                  <!-- Slide Image 2 -->
+                  <!-- Slide Image 3 -->
                   <div class="carousel-item">
                     <img class="d-block w-100 img-fluid" alt="First slide [900x600]" src="resources/images/slide10.jpg">
                     <div class="carousel-caption text-left">
@@ -99,20 +106,12 @@
                       <a class="btn btn-sm btn-danger" href="media.html#carol">View summary</a></p>
                     </div>
                   </div>
-                  <!-- Slide Image 3 -->
-                  <div class="carousel-item">
+                  <!-- Slide Image 4 -->
+                  <div id="gallery" class="carousel-item">
                     <img class="d-block w-100 img-fluid" alt="First slide [900x600]" src="resources/images/gallery.jpg">
                     <div class="carousel-caption text-left">
                       <h1>December in Pictures</h1>
                       <a class="btn btn-sm btn-danger" href="https://photos.app.goo.gl/sSMFX3yTFa3JViti6">View album</a></p>
-                    </div>
-                  </div>
-                  <!-- Slide Image 4 -->
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" alt="Fourth slide [900x600]" src="resources/images/slide12.jpg">
-                    <div class="carousel-caption text-left">
-                      <h1>Christmas for the Kids</h1>
-                      <a class="btn btn-sm btn-danger" href="cs.html">View Gallery</a></p>
                     </div>
                   </div>
                   <!-- Slide Image 5 -->
@@ -120,6 +119,7 @@
                     <img class="d-block w-100 img-fluid" alt="Fourth slide [900x600]" src="resources/images/slide4.jpg">
                     <div class="carousel-caption">
                       <h1>Social distancing during service</h1>
+                      <p class="laptop">A top view of social distance seating at service</p>
                     </div>
                   </div>
                 </div>
@@ -341,15 +341,33 @@
                     </a>
                   </div>
                 </div>
-                <!-- Hymnspiration -->
-                <div class="col-md-6 py-2" id="hymn">
+                <!-- Quote Slider -->
+                <div class="col-md-6 py-2" id="quote">
                   <div class="card">
-                    <a href="index.html#hymn" data-toggle="modal" data-target=".hymn-modal-lg">
-                      <img class="card-img img-fluid" src="resources/images/hymn.jpg" alt="hymnal">
-                      <div class="card-img-overlay text-white">
-                        <h5>Hymnspiration</h5>
+                    <div id="carouselQuote" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselQuote" data-slide-to="1" class="active"></li>
+                        <li data-target="#carouselQuote" data-slide-to="2"></li>
+                      </ol>
+                      <!-- Slideshow Images with Captions -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100 img-fluid" alt="quote1" src="resources/images/quote1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100 img-fluid" alt="quote2" src="resources/images/quote2.jpg">
+                        </div>
                       </div>
-                    </a>
+                      <!-- Slideshow Controls -->
+                      <a class="carousel-control-prev" href="#carouselQuote" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselQuote" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -504,41 +522,6 @@
                               “I will fully satisfy the needs of those who are weary and fully refresh the souls of those who are faint”.</h5>
                           </p>
                           <img class="img-fluid w-50" src="resources/images/verse.jpeg" alt="image of verse">
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Hymnspiration -->
-                <div class="modal fade hymn-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myHymn" aria-hidden="true">
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="myHymn">Hymnspiration of the Week</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body text-center my-4">
-                        <div class="container">
-                          <p>
-                            <h5>Presby Hymn Numbered 4</h5>
-                            <span class="font-italic">If God would give me thousand tongues now,<br>
-                            And thousand, thousands more than that;<br>
-                            I shall use all to praise Him always,<br>
-                            To glorify His Holy Name,<br>
-                            And shall extol Him with heart<br>
-                            And glorify His Holy Name</span><br><br>
-
-                            <h5>Inspired by Psalm 145.</h5>
-                            <span>A psalm of praise of David. <br>
-                            A Time will come when all people will join together in recognizing and worshipping God. <br>
-                             Because God is full of love, he satisfies all who trust in Him. <br>
-                              Amen!</span>
-                          </p>
                         </div>
                       </div>
                       <div class="modal-footer">
