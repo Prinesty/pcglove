@@ -1,7 +1,7 @@
 /** Standard Styling **/
 body {
   font-size: 16px;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .cover {
   background-color: #f8f9fa;
@@ -10,10 +10,11 @@ a {
   color:inherit;
   text-decoration: none;
 }
+
 h1, h3, h4, h5, h6 {
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
+
 h3 {
   color: #ffffff;
   font-size: 1.4rem;
@@ -153,9 +154,6 @@ thead {
 }
 
 /** Navigation Styling **/
-.navigation {
- font-family: 'Raleway', sans-serif;
-}
 .main-menu a:hover {
  text-decoration-line: none;
  color: #dc3545;
