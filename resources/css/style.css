@@ -1,7 +1,7 @@
 /** Standard Styling **/
 body {
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .cover {
   background-color: #f8f9fa;
@@ -12,7 +12,7 @@ a {
 }
 
 h1, h3, h4, h5, h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h3 {
@@ -20,7 +20,8 @@ h3 {
   font-size: 1.4rem;
 }
 h4 {
-    border-bottom: 2px solid #eee;
+  font-weight: bold;
+  border-bottom: 2px solid #eee;
 }
 
 h4:after {
@@ -41,6 +42,13 @@ thead {
     height: 700px;
     margin-top: .5rem;
     overflow: auto;
+}
+
+.jumbotron {
+  background-image: url("../images/landing.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 [data-title]:hover:after {
    opacity: 1;
